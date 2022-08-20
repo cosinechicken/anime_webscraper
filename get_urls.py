@@ -46,7 +46,7 @@ for i in range(6, 23):
             new_url = (temp.split("href=\"")[1].split("\">")[0])    # Format tag
             date_str = new_url.split("/")[2]
             if date_str[:4] == str(year) and len(date_str) == 8:
-                urls.append("web.archive.org" + new_url)
+                urls.append("https://web.archive.org" + new_url)
     print("")
 
 with open('data/urls.txt', 'w') as file:
