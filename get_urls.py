@@ -49,12 +49,12 @@ for i in range(6, 23):
                 urls.append("web.archive.org" + new_url)
     print("")
 
-print(urls)
+with open('data/urls.txt', 'w') as file:
+    for url in urls:
+        file.write(url + "\n")
 
 end_ns = time.time_ns()
 
 print(bcolors.HEADER + "Total time taken: " + str((end_ns - start_ns)/1000000000) + " s" + bcolors.ENDC)
 
-if __name__ == '__main__':
-    print("HI")
     
