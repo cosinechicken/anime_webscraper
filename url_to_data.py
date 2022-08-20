@@ -71,13 +71,22 @@ for next_url in urls:
                 members = remove_commas(str(row.contents[7].span.string).split(" ")[0])
                 # Append the data to the array
                 data.append(name + ", " + score + ", " + members)
-        else:
+        elif int(date_str) < 20160402:
             rows = soup.find_all('tr', class_="ranking-list")
             # Collect information about name, score, and members from each row
             for row in rows:
                 name = str(row.contents[3].contents[3].contents[3].string)
                 score = str(row.contents[5].div.span.string)
                 members = remove_commas(str(row.contents[3].contents[3].contents[6].contents[4])).split(" members")[0]
+                # Append the data to the array
+                data.append(name + ", " + score + ", " + members)
+        else:
+            rows = soup.find_all('tr', class_="ranking-list")
+            # Collect information about name, score, and members from each row
+            for row in rows:
+                name = str(row.contents[3].contents[3].contents[2].string)
+                score = str(row.contents[5].div.span.string)
+                members = remove_commas(str(row.contents[3].contents[3].contents[-1].contents[-1])).split(" members")[0]
                 # Append the data to the array
                 data.append(name + ", " + score + ", " + members)
 
