@@ -5,11 +5,11 @@ Gintama°, 9.16, 193493
 Steins;Gate, 9.14, 987744
 Ginga Eiyuu Densetsu, 9.11, 121397
 Gintama', 9.11, 211825
-Hunter x Hunter (2011), 9.11, <a
+Hunter x Hunter (2011), 9.11, 703260
 3-gatsu no Lion 2nd Season, 9.10, 78850
 Gintama': Enchousen, 9.07, 121114
 Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare, 9.04, 103649
-Koe no Katachi, 9.04, <a
+Koe no Katachi, 9.04, 487868
 Owarimonogatari 2nd Season, 9.03, 108822
 Gintama., 9.02, 88845
 Clannad: After Story, 9.01, 598834
@@ -20,31 +20,31 @@ Made in Abyss, 8.92, 305482
 Sen to Chihiro no Kamikakushi, 8.92, 691822
 Haikyuu!! Second Season, 8.88, 324689
 Kizumonogatari III: Reiketsu-hen, 8.88, 124586
-Shigatsu wa Kimi no Uso, 8.88, <a
+Shigatsu wa Kimi no Uso, 8.88, 698773
 Gintama.: Shirogane no Tamashii-hen, 8.87, 39192
-Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen, 8.87, <a
-Mushishi Zoku Shou 2nd Season, 8.83, <a
+Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen, 8.87, 72779
+Mushishi Zoku Shou 2nd Season, 8.83, 115833
 Cowboy Bebop, 8.81, 693394
 Hajime no Ippo, 8.80, 224640
 Mononoke Hime, 8.80, 498319
 Code Geass: Hangyaku no Lelouch, 8.79, 970850
-Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen, 8.79, <a
-Boku no Hero Academia 2nd Season, 8.77, <a
+Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen, 8.79, 165241
+Boku no Hero Academia 2nd Season, 8.77, 550017
 Monogatari Series: Second Season, 8.77, 298251
-Mushishi Zoku Shou, 8.77, <a
+Mushishi Zoku Shou, 8.77, 143323
 Ookami Kodomo no Ame to Yuki, 8.77, 350931
 No Game No Life: Zero, 8.76, 208446
-Mushishi, 8.75, <a
+Mushishi, 8.75, 402011
 Natsume Yuujinchou Roku, 8.75, 63908
 Great Teacher Onizuka, 8.74, 355204
 Tengen Toppa Gurren Lagann, 8.74, 773886
 Hajime no Ippo: New Challenger, 8.73, 123911
 Howl no Ugoku Shiro, 8.73, 472847
-One Punch Man, 8.73, <a
+One Punch Man, 8.73, 989677
 Suzumiya Haruhi no Shoushitsu, 8.73, 318962
 Natsume Yuujinchou Shi, 8.72, 130787
-Mushishi Zoku Shou: Suzu no Shizuku, 8.71, <a
-Shokugeki no Souma: San no Sara - Toutsuki Ressha-hen, 8.71, <a
+Mushishi Zoku Shou: Suzu no Shizuku, 8.71, 54176
+Shokugeki no Souma: San no Sara - Toutsuki Ressha-hen, 8.71, 108110
 Kizumonogatari II: Nekketsu-hen, 8.70, 131688
 Monster, 8.69, 346890
 Bakuman. 3rd Season, 8.67, 180252

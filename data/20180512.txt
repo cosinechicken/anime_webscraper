@@ -5,11 +5,11 @@ Steins;Gate, 9.14, 1010355
 Steins;Gate 0, 9.14, 225122
 Ginga Eiyuu Densetsu, 9.11, 124920
 Gintama', 9.11, 215472
-Hunter x Hunter (2011), 9.11, <a
+Hunter x Hunter (2011), 9.11, 721006
 3-gatsu no Lion 2nd Season, 9.10, 85856
 Gintama': Enchousen, 9.07, 123617
 Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare, 9.04, 105508
-Koe no Katachi, 9.04, <a
+Koe no Katachi, 9.04, 512253
 Owarimonogatari 2nd Season, 9.02, 113979
 Clannad: After Story, 9.01, 607317
 Gintama, 9.01, 458936
@@ -18,33 +18,33 @@ Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou, 8.99, 252693
 Code Geass: Hangyaku no Lelouch R2, 8.95, 791253
 Sen to Chihiro no Kamikakushi, 8.92, 705478
 Made in Abyss, 8.91, 326324
-Shigatsu wa Kimi no Uso, 8.88, <a
+Shigatsu wa Kimi no Uso, 8.88, 717779
 Haikyuu!! Second Season, 8.87, 333869
 Kizumonogatari III: Reiketsu-hen, 8.87, 130038
-Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen, 8.87, <a
+Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen, 8.87, 74997
 Gintama.: Shirogane no Tamashii-hen, 8.85, 42433
-Mushishi Zoku Shou 2nd Season, 8.83, <a
+Mushishi Zoku Shou 2nd Season, 8.83, 118353
 Cowboy Bebop, 8.81, 707586
 Hajime no Ippo, 8.80, 229337
 Mononoke Hime, 8.80, 507953
 Code Geass: Hangyaku no Lelouch, 8.79, 986744
-Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen, 8.79, <a
+Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen, 8.79, 167256
 Monogatari Series: Second Season, 8.77, 304065
-Mushishi Zoku Shou, 8.77, <a
+Mushishi Zoku Shou, 8.77, 145951
 Ookami Kodomo no Ame to Yuki, 8.77, 358209
-Boku no Hero Academia 2nd Season, 8.76, <a
-Boku no Hero Academia 3rd Season, 8.76, <a
+Boku no Hero Academia 2nd Season, 8.76, 583692
+Boku no Hero Academia 3rd Season, 8.76, 284642
 Great Teacher Onizuka, 8.74, 360913
-Mushishi, 8.74, <a
+Mushishi, 8.74, 408005
 Natsume Yuujinchou Roku, 8.74, 66301
 No Game No Life: Zero, 8.74, 225606
 Tengen Toppa Gurren Lagann, 8.74, 787429
 Hajime no Ippo: New Challenger, 8.73, 126114
 Howl no Ugoku Shiro, 8.73, 481140
-One Punch Man, 8.73, <a
+One Punch Man, 8.73, 1021123
 Suzumiya Haruhi no Shoushitsu, 8.73, 323654
 Natsume Yuujinchou Shi, 8.72, 132417
-Mushishi Zoku Shou: Suzu no Shizuku, 8.70, <a
+Mushishi Zoku Shou: Suzu no Shizuku, 8.70, 55507
 Kizumonogatari II: Nekketsu-hen, 8.69, 136662
 Monster, 8.69, 353166
 Bakuman. 3rd Season, 8.67, 182899

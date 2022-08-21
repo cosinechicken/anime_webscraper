@@ -4,10 +4,10 @@ Gintama°, 9.17, 192122
 Steins;Gate, 9.14, 979722
 Gintama', 9.12, 210475
 Ginga Eiyuu Densetsu, 9.11, 120131
-Hunter x Hunter (2011), 9.11, <a
+Hunter x Hunter (2011), 9.11, 697053
 3-gatsu no Lion 2nd Season, 9.10, 76421
 Gintama': Enchousen, 9.07, 120488
-Koe no Katachi, 9.05, <a
+Koe no Katachi, 9.05, 481690
 Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare, 9.04, 103191
 Owarimonogatari 2nd Season, 9.03, 107606
 Gintama., 9.02, 88040
@@ -20,30 +20,30 @@ Sen to Chihiro no Kamikakushi, 8.92, 687029
 Gintama.: Shirogane no Tamashii-hen, 8.89, 38160
 Haikyuu!! Second Season, 8.88, 322334
 Kizumonogatari III: Reiketsu-hen, 8.88, 123291
-Shigatsu wa Kimi no Uso, 8.88, <a
-Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen, 8.87, <a
-Mushishi Zoku Shou 2nd Season, 8.83, <a
+Shigatsu wa Kimi no Uso, 8.88, 693970
+Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen, 8.87, 72231
+Mushishi Zoku Shou 2nd Season, 8.83, 115255
 Cowboy Bebop, 8.81, 688563
 Hajime no Ippo, 8.80, 222890
 Mononoke Hime, 8.80, 495062
 Code Geass: Hangyaku no Lelouch, 8.79, 965229
-Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen, 8.79, <a
+Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen, 8.79, 164539
 Ookami Kodomo no Ame to Yuki, 8.78, 348617
-Boku no Hero Academia 2nd Season, 8.77, <a
+Boku no Hero Academia 2nd Season, 8.77, 541277
 Monogatari Series: Second Season, 8.77, 296846
-Mushishi Zoku Shou, 8.77, <a
+Mushishi Zoku Shou, 8.77, 142748
 No Game No Life: Zero, 8.77, 203777
-Mushishi, 8.75, <a
+Mushishi, 8.75, 399938
 Natsume Yuujinchou Roku, 8.75, 63293
 Great Teacher Onizuka, 8.74, 353295
 Tengen Toppa Gurren Lagann, 8.74, 769165
 Hajime no Ippo: New Challenger, 8.73, 123080
 Howl no Ugoku Shiro, 8.73, 469986
-One Punch Man, 8.73, <a
+One Punch Man, 8.73, 981550
 Suzumiya Haruhi no Shoushitsu, 8.73, 317355
 Natsume Yuujinchou Shi, 8.72, 130253
-Mushishi Zoku Shou: Suzu no Shizuku, 8.71, <a
-Boku no Hero Academia 3rd Season, 8.73, <a
+Mushishi Zoku Shou: Suzu no Shizuku, 8.71, 53909
+Boku no Hero Academia 3rd Season, 8.73, 173162
 Kizumonogatari II: Nekketsu-hen, 8.70, 130500
 Monster, 8.69, 344777
 Pingu in the City, 8.68, 20911
