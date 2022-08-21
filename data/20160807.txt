@@ -1,0 +1,50 @@
+None, 9.27, 94705
+None, 9.26, 716912
+None, 9.17, 604439
+None, 9.16, 137024
+None, 9.14, 369585
+None, 9.11, 71802
+None, 9.11, 64503
+None, 9.11, 72391
+None, 9.08, 422712
+None, 9.05, 308844
+None, 8.99, 528607
+None, 8.93, 141187
+None, 8.93, 424009
+None, 8.93, 354552
+None, 8.89, 65978
+None, 8.86, 456748
+None, 8.85, 198031
+None, 8.84, 142720
+None, 8.84, 120513
+None, 8.83, 658326
+None, 8.83, 445139
+None, 8.83, 221386
+None, 8.82, 308699
+None, 8.81, 185012
+None, 8.80, 91051
+None, 8.79, 519247
+None, 8.78, 275706
+None, 8.77, 248304
+None, 8.77, 222351
+None, 8.76, 26449
+None, 8.75, 308470
+Hajime no Ippo: New Challenger, 8.75, 81161
+None, 8.75, 87856
+None, 8.74, 306460
+None, 8.74, 224491
+Bakuman. 3rd Season, 8.72, 122519
+None, 8.72, 927585
+None, 8.70, 336559
+None, 8.69, 59143
+None, 8.69, 104260
+None, 8.68, 237591
+None, 8.67, 44461
+None, 8.67, 91466
+None, 8.67, 85097
+None, 8.66, 52557
+None, 8.66, 109560
+None, 8.65, 134302
+Gintama: Yorinuki Gintama-san on Theater 2D, 8.65, 9336
+None, 8.65, 124906
+Tengen Toppa Gurren Lagann Movie: Lagann-hen, 8.65, 75437

@@ -1,0 +1,50 @@
+None, 9.27, 95479
+None, 9.26, 719325
+None, 9.17, 606768
+None, 9.16, 137506
+None, 9.14, 371603
+None, 9.11, 72122
+None, 9.11, 64788
+None, 9.11, 72694
+None, 9.08, 423928
+None, 9.05, 309821
+None, 8.98, 530100
+None, 8.93, 142394
+None, 8.93, 425402
+None, 8.93, 356610
+None, 8.89, 66334
+None, 8.86, 460099
+None, 8.85, 198917
+None, 8.84, 143286
+None, 8.84, 120796
+None, 8.83, 660246
+None, 8.83, 446510
+None, 8.83, 221998
+None, 8.82, 309677
+None, 8.81, 185704
+None, 8.80, 91400
+None, 8.79, 520725
+None, 8.78, 276489
+None, 8.77, 248918
+None, 8.77, 227635
+None, 8.76, 26630
+None, 8.75, 309673
+Hajime no Ippo: New Challenger, 8.75, 81424
+None, 8.75, 88101
+None, 8.74, 307346
+None, 8.74, 225295
+Bakuman. 3rd Season, 8.72, 122865
+None, 8.72, 930639
+Gintama°: Aizome Kaori-hen, 8.72, 6825
+None, 8.69, 339029
+None, 8.69, 59397
+None, 8.69, 104493
+None, 8.68, 238937
+None, 8.67, 44613
+None, 8.67, 91725
+None, 8.67, 85530
+None, 8.66, 52704
+None, 8.65, 135853
+None, 8.65, 125482
+Tengen Toppa Gurren Lagann Movie: Lagann-hen, 8.65, 75650
+None, 8.65, 110013
