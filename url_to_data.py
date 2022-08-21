@@ -107,7 +107,7 @@ for next_url in urls:
             for row in rows:
                 name = str(row.contents[3].contents[3].contents[2].a.string)
                 score = str(row.contents[5].div.span.string)
-                members = remove_commas(str(row.contents[3].contents[3].contents[-1].contents[-1])).split(" ")[0]
+                members = remove_commas(str(row.contents[3].contents[3].contents[4].contents[-1])).split(" ")[0]
                 # Append the data to the array
                 add_data(data, name, score, members)
 
