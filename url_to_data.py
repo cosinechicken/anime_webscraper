@@ -59,7 +59,11 @@ for next_url in urls:
 
     # Scrape the url
     driver = webdriver.Chrome(options=op)
-    driver.get(next_url)
+    driver.set_page_load_timeout(60)
+    try:
+        driver.get(next_url)
+    except:
+        print(bcolors.FAIL + "OUT OF TIME" + bcolors.ENDC)
     # Sleep for 2 seconds to allow javascript to render
     time.sleep(2)
     htmlSource = driver.page_source         # Scraped HTML of the website
