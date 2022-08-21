@@ -1,50 +1,50 @@
-None, 9.40, 123193
-None, 9.26, 751157
-None, 9.25, 104003
-None, 9.17, 636045
-None, 9.16, 143491
-None, 9.14, 394948
-None, 9.11, 76300
-None, 9.10, 75532
-None, 9.10, 68236
-None, 9.07, 438075
-None, 9.05, 321427
-None, 8.98, 547908
-None, 8.98, 71381
-None, 8.93, 442524
-None, 8.92, 156325
-None, 8.92, 382161
-None, 8.89, 70517
-None, 8.85, 210377
-None, 8.84, 149638
-None, 8.84, 500183
-None, 8.83, 683254
-None, 8.83, 463886
-None, 8.83, 124623
-None, 8.82, 230097
+Kimi no Na wa., 9.40, 123193
+Fullmetal Alchemist: Brotherhood, 9.26, 751157
+Gintama°, 9.25, 104003
+Steins;Gate, 9.17, 636045
+Gintama', 9.16, 143491
+Hunter x Hunter (2011), 9.14, 394948
+Gintama': Enchousen, 9.11, 76300
+Ginga Eiyuu Densetsu, 9.10, 75532
+Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare, 9.10, 68236
+Clannad: After Story, 9.07, 438075
+Gintama, 9.05, 321427
+Code Geass: Hangyaku no Lelouch R2, 8.98, 547908
+Koe no Katachi, 8.98, 71381
+Sen to Chihiro no Kamikakushi, 8.93, 442524
+Haikyuu!! Second Season, 8.92, 156325
+Shigatsu wa Kimi no Uso, 8.92, 382161
+Mushishi Zoku Shou 2nd Season, 8.89, 70517
+Ookami Kodomo no Ame to Yuki, 8.85, 210377
+Hajime no Ippo, 8.84, 149638
+One Punch Man, 8.84, 500183
+Code Geass: Hangyaku no Lelouch, 8.83, 683254
+Cowboy Bebop, 8.83, 463886
+Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen, 8.83, 124623
+Suzumiya Haruhi no Shoushitsu, 8.82, 230097
 Gintama°: Aizome Kaori-hen, 8.81, 12645
-None, 8.81, 194198
-None, 8.81, 322258
-None, 8.80, 95778
-None, 8.78, 286735
-None, 8.78, 538953
-None, 8.77, 257484
+Monogatari Series: Second Season, 8.81, 194198
+Mononoke Hime, 8.81, 322258
+Mushishi Zoku Shou, 8.80, 95778
+Mushishi, 8.78, 286735
+Tengen Toppa Gurren Lagann, 8.78, 538953
+Great Teacher Onizuka, 8.77, 257484
 Hajime no Ippo: New Challenger, 8.75, 84719
-None, 8.76, 29116
-None, 8.74, 323126
-None, 8.74, 318324
-None, 8.74, 234819
-None, 8.74, 92001
-None, 8.74, 298085
+Mushishi Zoku Shou: Suzu no Shizuku, 8.76, 29116
+Fate/Zero 2nd Season, 8.74, 323126
+Howl no Ugoku Shiro, 8.74, 318324
+Monster, 8.74, 234819
+Natsume Yuujinchou Shi, 8.74, 92001
+Re:Zero kara Hajimeru Isekai Seikatsu, 8.74, 298085
 Bakuman. 3rd Season, 8.72, 127408
-None, 8.72, 965958
-None, 8.69, 62583
-None, 8.68, 107479
-None, 8.67, 154053
-None, 8.67, 366783
-None, 8.67, 255918
-None, 8.67, 95554
-None, 8.67, 90535
-None, 8.65, 54337
-None, 8.66, 46537
-None, 8.65, 29344
+Death Note, 8.72, 965958
+Hajime no Ippo: Rising, 8.69, 62583
+Kara no Kyoukai 5: Mujun Rasen, 8.68, 107479
+Ansatsu Kyoushitsu (TV) 2nd Season, 8.67, 154053
+Boku dake ga Inai Machi, 8.67, 366783
+Haikyuu!!, 8.67, 255918
+Natsume Yuujinchou San, 8.67, 95554
+Ping Pong The Animation, 8.67, 90535
+Aria The Origination, 8.65, 54337
+Mushishi Special: Hihamukage, 8.66, 46537
+Kamisama Hajimemashita: Kako-hen, 8.65, 29344

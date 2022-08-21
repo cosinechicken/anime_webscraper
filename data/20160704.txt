@@ -1,50 +1,50 @@
-None, 9.28, 87545
-None, 9.26, 694311
-None, 9.17, 583536
-None, 9.16, 132609
-None, 9.14, 352455
-None, 9.11, 62101
-None, 9.11, 69866
-None, 9.09, 69727
-None, 9.08, 412108
-None, 9.05, 300204
-None, 8.99, 515816
-None, 8.94, 130518
-None, 8.93, 411763
-None, 8.93, 335781
-None, 8.90, 62951
-None, 8.88, 425591
-None, 8.85, 190456
-None, 8.85, 117795
-None, 8.84, 641908
-None, 8.84, 138613
-None, 8.83, 432673
-None, 8.83, 215760
-None, 8.82, 299529
-None, 8.81, 178721
-None, 8.79, 87926
-None, 8.79, 505590
-None, 8.78, 242269
-None, 8.78, 267841
-None, 8.77, 77746
+Gintama°, 9.28, 87545
+Fullmetal Alchemist: Brotherhood, 9.26, 694311
+Steins;Gate, 9.17, 583536
+Gintama', 9.16, 132609
+Hunter x Hunter (2011), 9.14, 352455
+Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare, 9.11, 62101
+Gintama': Enchousen, 9.11, 69866
+Ginga Eiyuu Densetsu, 9.09, 69727
+Clannad: After Story, 9.08, 412108
+Gintama, 9.05, 300204
+Code Geass: Hangyaku no Lelouch R2, 8.99, 515816
+Haikyuu!! Second Season, 8.94, 130518
+Sen to Chihiro no Kamikakushi, 8.93, 411763
+Shigatsu wa Kimi no Uso, 8.93, 335781
+Mushishi Zoku Shou 2nd Season, 8.90, 62951
+One Punch Man, 8.88, 425591
+Ookami Kodomo no Ame to Yuki, 8.85, 190456
+Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen, 8.85, 117795
+Code Geass: Hangyaku no Lelouch, 8.84, 641908
+Hajime no Ippo, 8.84, 138613
+Cowboy Bebop, 8.83, 432673
+Suzumiya Haruhi no Shoushitsu, 8.83, 215760
+Mononoke Hime, 8.82, 299529
+Monogatari Series: Second Season, 8.81, 178721
+Mushishi Zoku Shou, 8.79, 87926
+Tengen Toppa Gurren Lagann, 8.79, 505590
+Great Teacher Onizuka, 8.78, 242269
+Mushishi, 8.78, 267841
+Shokugeki no Souma: Ni no Sara, 8.77, 77746
 Hajime no Ippo: New Challenger, 8.76, 78923
-None, 8.75, 298416
-None, 8.75, 85390
-None, 8.74, 298443
-None, 8.74, 217709
-None, 8.73, 312676
-None, 8.73, 901206
+Fate/Zero 2nd Season, 8.75, 298416
+Natsume Yuujinchou Shi, 8.75, 85390
+Howl no Ugoku Shiro, 8.74, 298443
+Monster, 8.74, 217709
+Boku dake ga Inai Machi, 8.73, 312676
+Death Note, 8.73, 901206
 Bakuman. 3rd Season, 8.72, 119055
-None, 8.70, 102206
-None, 8.69, 56985
-None, 8.69, 24872
-None, 8.68, 224941
-None, 8.68, 81375
-None, 8.67, 51440
-None, 8.67, 88878
-None, 8.67, 170451
-None, 8.66, 43053
-None, 8.66, 120566
-None, 8.66, 105615
-None, 8.65, 153156
+Kara no Kyoukai 5: Mujun Rasen, 8.70, 102206
+Hajime no Ippo: Rising, 8.69, 56985
+Mushishi Zoku Shou: Suzu no Shizuku, 8.69, 24872
+Haikyuu!!, 8.68, 224941
+Ping Pong The Animation, 8.68, 81375
+Aria The Origination, 8.67, 51440
+Natsume Yuujinchou San, 8.67, 88878
+Re:Zero kara Hajimeru Isekai Seikatsu, 8.67, 170451
+Mushishi Special: Hihamukage, 8.66, 43053
+Rainbow: Nisha Rokubou no Shichinin, 8.66, 120566
+Yojouhan Shinwa Taikei, 8.66, 105615
+Kuroko no Basket 3rd Season, 8.65, 153156
 Tengen Toppa Gurren Lagann Movie: Lagann-hen, 8.65, 73336

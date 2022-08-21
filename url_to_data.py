@@ -18,6 +18,16 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
+# helper method to add name, score, and members to data in string format
+def add_data (data_, name_, score_, members_):
+    if name_ == "None":
+        raise Exception("Name was null")
+    if score_ == "None":
+        raise Exception("Score was null")
+    if members_ == "None":
+        raise Exception("Members was null")
+    data_.append(name_ + ", " + score_ + ", " + members_)
+
 # remove commas from string representation of number
 def remove_commas(num):
     while num[0] == '\t' or num[0] == '\n' or num[0] == ' ':
@@ -70,13 +80,8 @@ for next_url in urls:
                 score = str(row.contents[7].contents[0]).split("scored ")[1]
                 members = remove_commas(str(row.contents[7].span.string).split(" ")[0])
                 # Append the data to the array
-                if name == "None":
-                    raise Exception("Name was null")
-                if score == "None":
-                    raise Exception("Score was null")
-                if members == "None":
-                    raise Exception("Members was null")
-                data.append(name + ", " + score + ", " + members)
+                add_data(data, name, score, members)
+                
         elif int(date_str) < 20160406:
             rows = soup.find_all('tr', class_="ranking-list")
             # Collect information about name, score, and members from each row
@@ -85,13 +90,7 @@ for next_url in urls:
                 score = str(row.contents[5].div.span.string)
                 members = remove_commas(str(row.contents[3].contents[3].contents[6].contents[4])).split(" members")[0]
                 # Append the data to the array
-                if name == "None":
-                    raise Exception("Name was null")
-                if score == "None":
-                    raise Exception("Score was null")
-                if members == "None":
-                    raise Exception("Members was null")
-                data.append(name + ", " + score + ", " + members)
+                add_data(data, name, score, members)
         elif int(date_str) < 20160504:
             rows = soup.find_all('tr', class_="ranking-list")
             # Collect information about name, score, and members from each row
@@ -100,13 +99,7 @@ for next_url in urls:
                 score = str(row.contents[5].div.span.string)
                 members = remove_commas(str(row.contents[3].contents[3].contents[-1].contents[-1])).split(" members")[0]
                 # Append the data to the array
-                if name == "None":
-                    raise Exception("Name was null")
-                if score == "None":
-                    raise Exception("Score was null")
-                if members == "None":
-                    raise Exception("Members was null")
-                data.append(name + ", " + score + ", " + members)
+                add_data(data, name, score, members)
         else:
             rows = soup.find_all('tr', class_="ranking-list")
             # Collect information about name, score, and members from each row
