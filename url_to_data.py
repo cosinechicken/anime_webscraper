@@ -1,6 +1,3 @@
-from calendar import c
-from datetime import date
-from tkinter import W
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import time
