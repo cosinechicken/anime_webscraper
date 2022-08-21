@@ -89,7 +89,7 @@ for next_url in urls:
             for row in rows:
                 name = str(row.contents[3].contents[3].contents[3].string)
                 score = str(row.contents[5].div.span.string)
-                members = remove_commas(str(row.contents[3].contents[3].contents[6].contents[4])).split(" members")[0]
+                members = remove_commas(str(row.contents[3].contents[3].contents[6].contents[4])).split(" ")[0]
                 # Append the data to the array
                 add_data(data, name, score, members)
         elif int(date_str) < 20160504:
@@ -98,7 +98,7 @@ for next_url in urls:
             for row in rows:
                 name = str(row.contents[3].contents[3].contents[2].string)
                 score = str(row.contents[5].div.span.string)
-                members = remove_commas(str(row.contents[3].contents[3].contents[-1].contents[-1])).split(" members")[0]
+                members = remove_commas(str(row.contents[3].contents[3].contents[-1].contents[-1])).split(" ")[0]
                 # Append the data to the array
                 add_data(data, name, score, members)
         else:
@@ -107,19 +107,15 @@ for next_url in urls:
             for row in rows:
                 name = str(row.contents[3].contents[3].contents[2].a.string)
                 score = str(row.contents[5].div.span.string)
-                members = remove_commas(str(row.contents[3].contents[3].contents[-1].contents[-1])).split(" members")[0]
+                members = remove_commas(str(row.contents[3].contents[3].contents[-1].contents[-1])).split(" ")[0]
                 # Append the data to the array
-                if name == "None":
-                    raise Exception("Name was null")
-                if score == "None":
-                    raise Exception("Score was null")
-                if members == "None":
-                    raise Exception("Members was null")
-                data.append(name + ", " + score + ", " + members)
+                add_data(data, name, score, members)
 
         # If length was 0 then there was an error in scraping the files
         if len(data) == 0:
             raise Exception("File was empty")
+        elif len(data) != 50:
+            raise Exception("File did not have 50 datapoints")
         # If everything went well we write the data into the text files
         with open('data/' + date_str + '.txt', 'w', encoding='utf8') as txt_file:
             for data_point in data:
