@@ -21,12 +21,16 @@ op = webdriver.ChromeOptions()
 op.add_argument('headless')
 
 # Scrape the archive for each year
+ending = 50
 urls = []
-for i in range(6, 23):
+for i in range(15, 23):
     # 4-digit representation of the year
     year = i + 2000
     print(bcolors.HEADER + "Scraping: " + str(year) + bcolors.ENDC)
     url = 'https://web.archive.org/web/' + str(year) + '0101000000*/https://myanimelist.net/topanime.php'
+    
+    if ending > 0:
+        url += ('?limit=' + str(ending))
 
     # Scrape the url
     driver = webdriver.Chrome(options=op)
@@ -48,7 +52,12 @@ for i in range(6, 23):
                 urls.append("https://web.archive.org" + new_url)
     print("")
 
-with open('data/urls.txt', 'w') as file:
+file_name = "data/urls/"
+if ending > 0:
+    file_name += ("-" + str(ending))
+file_name += ".txt"
+
+with open(file_name, 'w') as file:
     for url in urls:
         file.write(url + "\n")
 

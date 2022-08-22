@@ -45,7 +45,13 @@ op.add_argument('headless')
 
 urls = []
 failures = []
-with open('data/urls.txt', 'r') as url_file:
+limit = 50
+url_file = "data/urls"
+if limit > 0:
+    url_file += ("-" + str(limit))
+url_file += ".txt"
+
+with open(url_file, 'r') as url_file:
     while True:
         next_url = url_file.readline()
         if len(next_url) == 0:
@@ -121,7 +127,11 @@ for next_url in urls:
             elif len(data) != 50:
                 raise Exception("File did not have 50 datapoints")
             # If everything went well we write the data into the text files
-            with open('data/' + date_str + '.txt', 'w', encoding='utf8') as txt_file:
+            data_file = "data/" + str(limit) + "/" + date_str
+            if limit > 0:
+                data_file += ("-" + str(limit))
+            data_file += ".txt"
+            with open(data_file, 'w', encoding='utf8') as txt_file:
                 for data_point in data:
                     txt_file.write(data_point + "\n")
             is_finished = True
@@ -130,7 +140,11 @@ for next_url in urls:
             print(next_url + " doesn't have the correct format.")
             print(bcolors.WARNING + "Scraping: " + str(e) + bcolors.ENDC)
     if not is_finished:
-        with open('data/failures.txt', 'a', encoding='utf8') as txt_file:
+        failure_file = "data/failures"
+        if limit > 0:
+            failure_file += ("-" + str(limit))
+        failure_file += ".txt"
+        with open(failure_file, 'a', encoding='utf8') as txt_file:
             txt_file.write(str(date_str) + "\n")
         failures.append(date_str)
         if len(failures) > 10:
