@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import time
 from selenium.webdriver.chrome.options import Options  # for suppressing the browser
+import os
 
 # Class to enable printing colors to console
 class bcolors:
@@ -21,52 +22,67 @@ def add_limit(string):
         return string + "-" + str(limit)
     return string
 
+# Helper function to create the directory for data if it doesn't exist
+def create_dir(dir):
+  if not os.path.exists(dir):
+    os.makedirs(dir)
+    print("Created Directory : ", dir)
+  else:
+    print("Directory already existed : ", dir)
+  return dir
+
 start_ns = time.time_ns()
 # Prevent browser from being opened while scraping
 op = webdriver.ChromeOptions()
 op.add_argument('headless')
 
-# Scrape the archive for each year
-limit = 50
-urls = []
-for i in range(15, 23):
-    # 4-digit representation of the year
-    year = i + 2000
-    print(bcolors.HEADER + "Scraping: " + str(year) + bcolors.ENDC)
-    url = 'https://web.archive.org/web/' + str(year) + '0101000000*/https://myanimelist.net/topanime.php'
-    
-    if limit > 0:
-        url += ('?limit=' + str(limit))
+# Iterate through possible value of limits
+for limit in range(150, 550, 50):
+    # Scrape the archive for each year
+    urls = []
+    for i in range(15, 23):
+        # 4-digit representation of the year
+        year = i + 2000
+        print(bcolors.HEADER + "Scraping: " + str(year) + bcolors.ENDC)
+        url = 'https://web.archive.org/web/' + str(year) + '0101000000*/https://myanimelist.net/topanime.php'
+        
+        if limit > 0:
+            url += ('?limit=' + str(limit))
 
-    # Scrape the url
-    driver = webdriver.Chrome(options=op)
-    driver.get(url)
-    # Sleep for 2 seconds to allow javascript to render
-    time.sleep(2)
-    htmlSource = driver.page_source         # Scraped HTML of the website
+        # Scrape the url
+        driver = webdriver.Chrome(options=op)
+        driver.get(url)
+        # Sleep for 2 seconds to allow javascript to render
+        time.sleep(3)
+        htmlSource = driver.page_source         # Scraped HTML of the website
 
-    soup = BeautifulSoup(htmlSource, 'lxml')    # Enable us to search the scraped HTML easily
-    links = soup.find_all('a')                  # Find all links in the HTML
+        soup = BeautifulSoup(htmlSource, 'lxml')    # Enable us to search the scraped HTML easily
+        links = soup.find_all('a')                  # Find all links in the HTML
 
-    # Obtain the list of URLs we want to scrape
-    for a in links:
-        temp = str(a)
-        if temp.find("myanimelist") != -1:                          # Eliminate junk URL's
-            new_url = (temp.split("href=\"")[1].split("\">")[0])    # Format tag
-            date_str = new_url.split("/")[2]
-            if date_str[:4] == str(year) and len(date_str) == 8:
-                urls.append("https://web.archive.org" + new_url)
-    print("")
+        num_appended = 0
+        # Obtain the list of URLs we want to scrape
+        for a in links:
+            temp = str(a)
+            if temp.find("myanimelist") != -1:                          # Eliminate junk URL's
+                new_url = (temp.split("href=\"")[1].split("\">")[0])    # Format tag
+                date_str = new_url.split("/")[2]
+                if date_str[:4] == str(year) and len(date_str) == 8:    # Ensure URL is correct format
+                    urls.append("https://web.archive.org" + new_url)
+                    num_appended += 1
+        print("")
+        # Output warning message if some year did not have any URLs saved
+        if num_appended == 0:
+            print(bcolors.FAIL + str(year) + " was empty" + bcolors.ENDC)
 
-file_name = add_limit("data/urls")
-file_name += ".txt"
+    create_dir("data/" + str(limit))
+    file_name = add_limit("data/urls") + ".txt"
 
-with open(file_name, 'w') as file:
-    for url in urls:
-        file.write(url + "\n")
+    with open(file_name, 'w') as file:
+        for url in urls:
+            file.write(url + "\n")
 
-end_ns = time.time_ns()
+    end_ns = time.time_ns()
 
-print(bcolors.HEADER + "Total time taken: " + str((end_ns - start_ns)/1000000000) + " s" + bcolors.ENDC)
+    print(bcolors.HEADER + "Total time taken: " + str((end_ns - start_ns)/1000000000) + " s" + bcolors.ENDC)
 
     
