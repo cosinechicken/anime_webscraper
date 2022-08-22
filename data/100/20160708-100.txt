@@ -1,0 +1,50 @@
+Mononoke, 8.50, 77661
+Samurai Champloo, 8.50, 352075
+Shirobako, 8.50, 123020
+Hunter x Hunter, 8.49, 150448
+Kuroko no Basket, 8.49, 296925
+Mahou Shoujo Madoka★Magica Movie 2: Eien no Monogatari, 8.49, 76511
+No Game No Life, 8.49, 511850
+Romeo no Aoi Sora, 8.49, 13023
+Sakamichi no Apollon, 8.49, 132413
+Tonari no Totoro, 8.49, 240470
+Kaze no Tani no Nausicaä, 8.48, 131891
+Kemono no Souja Erin, 8.48, 33128
+Nodame Cantabile, 8.48, 143674
+Shingeki no Kyojin: Kuinaki Sentaku, 8.48, 77825
+Ghost in the Shell: Stand Alone Complex, 8.47, 176652
+Kino no Tabi: The Beautiful World, 8.47, 94913
+Steins;Gate: Oukoubakko no Poriomania, 8.47, 143653
+Toradora!, 8.47, 563362
+Yuu☆Yuu☆Hakusho, 8.47, 176447
+Fate/stay night: Unlimited Blade Works 2nd Season, 8.46, 171346
+Kamisama Hajimemashita: Kako-hen, 8.46, 23433
+Nanatsu no Taizai, 8.46, 264157
+Ookami to Koushinryou II, 8.46, 191349
+Toki wo Kakeru Shoujo, 8.46, 257908
+Fate/stay night: Unlimited Blade Works, 8.45, 226655
+Tsubasa: Tokyo Revelations, 8.45, 55297
+Ashita no Joe 2, 8.44, 5093
+Boku no Hero Academia, 8.44, 192943
+Major S1, 8.44, 37106
+Neon Genesis Evangelion: The End of Evangelion, 8.44, 195771
+Owarimonogatari, 8.44, 87839
+Stranger: Mukou Hadan, 8.44, 111443
+Higurashi no Naku Koro ni Kai, 8.43, 202297
+Hunter x Hunter OVA, 8.43, 49328
+Kuroshitsuji: Book of Murder, 8.43, 55024
+One Piece Film: Strong World, 8.43, 76935
+Rose of Versailles, 8.43, 28846
+Rurouni Kenshin: Meiji Kenkaku Romantan, 8.43, 202426
+Angel Beats!, 8.42, 640476
+Hunter x Hunter: Greed Island Final, 8.42, 51601
+Kizumonogatari I: Tekketsu-hen, 8.42, 73783
+Major S2, 8.42, 27867
+Major S3, 8.42, 26841
+Mobile Suit Gundam Unicorn, 8.42, 39074
+Natsume Yuujinchou, 8.42, 182985
+Sakurasou no Pet na Kanojo, 8.42, 332160
+Beck, 8.41, 137457
+Cowboy Bebop: Tengoku no Tobira, 8.41, 126913
+Natsume Yuujinchou: Itsuka Yuki no Hi ni, 8.41, 23323
+NHK ni Youkoso!, 8.41, 262160

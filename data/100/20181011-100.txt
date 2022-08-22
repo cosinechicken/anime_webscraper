@@ -1,0 +1,50 @@
+Nana, 8.50, 274284
+Samurai Champloo, 8.50, 575636
+Cross Game, 8.49, 74105
+Gintama: Yorinuki Gintama-san on Theater 2D, 8.49, 19878
+Kingdom 2nd Season, 8.49, 48714
+Mo Dao Zu Shi, 8.49, 16051
+Neon Genesis Evangelion: The End of Evangelion, 8.49, 316250
+Baccano!, 8.48, 505770
+Bakemono no Ko, 8.48, 182539
+Bakuman. 2nd Season, 8.48, 211086
+Gintama°: Aizome Kaori-hen, 8.48, 36338
+Kuroko no Basket 2nd Season, 8.48, 371712
+Shingeki no Kyojin, 8.48, 1424708
+Yuu☆Yuu☆Hakusho, 8.48, 290663
+Barakamon, 8.47, 348641
+Chihayafuru 2, 8.47, 119699
+Hunter x Hunter, 8.47, 243102
+Shinsekai yori, 8.47, 435185
+Shokugeki no Souma: San no Sara, 8.47, 289591
+Ghost in the Shell: Stand Alone Complex, 8.46, 261614
+Houseki no Kuni, 8.46, 154429
+Kaze no Tani no Nausicaä, 8.46, 197259
+Kenpuu Denki Berserk, 8.46, 314004
+Mahou Shoujo Madoka★Magica Movie 3: Hangyaku no Monogatari, 8.46, 199705
+Major S6, 8.46, 35181
+Natsume Yuujinchou Roku Specials, 8.46, 15508
+Mahou Shoujo Madoka★Magica, 8.45, 667992
+Major: World Series, 8.45, 20213
+Mononoke, 8.45, 134165
+Owarimonogatari, 8.45, 209305
+Sayonara no Asa ni Yakusoku no Hana wo Kazarou, 8.45, 46020
+Shingeki no Kyojin Season 2, 8.45, 718647
+Shokugeki no Souma: Ni no Sara, 8.45, 428885
+Uchuu Senkan Yamato 2199, 8.45, 67522
+3-gatsu no Lion, 8.44, 217776
+Fate/stay night Movie: Heaven's Feel - I. Presage Flower, 8.44, 123093
+Mahou Shoujo Madoka★Magica Movie 2: Eien no Monogatari, 8.44, 118909
+Mobile Suit Gundam: The Origin, 8.44, 30885
+Psycho-Pass, 8.44, 794303
+Tonari no Totoro, 8.44, 430706
+Boku no Hero Academia, 8.43, 867884
+Evangelion: 2.0 You Can (Not) Advance, 8.43, 247508
+Fairy Tail: Final Series, 8.43, 95170
+Fate/Zero, 8.43, 703621
+Katanagatari, 8.43, 301587
+Kizumonogatari I: Tekketsu-hen, 8.43, 211132
+Magi: The Kingdom of Magic, 8.43, 397066
+Ookami to Koushinryou II, 8.43, 288242
+Quanzhi Gaoshou Specials, 8.43, 37690
+Romeo no Aoi Sora, 8.43, 23669

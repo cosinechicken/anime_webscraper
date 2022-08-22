@@ -1,0 +1,50 @@
+One Piece, 8.49, 1195949
+Mob Psycho 100, 8.49, 1104488
+Kenpuu Denki Berserk, 8.48, 409741
+Kimetsu no Yaiba Movie: Mugen Ressha-hen, 8.48, 241882
+Nichijou, 8.48, 602645
+Saiki Kusuo no Ψ-nan, 8.47, 486403
+Gotcha!, 8.47, 9688
+JoJo no Kimyou na Bouken Part 3: Stardust Crusaders 2nd Season, 8.47, 550546
+Kaze ga Tsuyoku Fuiteiru, 8.47, 174531
+Mushishi Zoku Shou: Odoro no Michi, 8.47, 73144
+Major S5, 8.46, 54500
+Owarimonogatari, 8.46, 329415
+Saenai Heroine no Sodatekata Fine, 8.46, 66811
+Sayonara no Asa ni Yakusoku no Hana wo Kazarou, 8.46, 215295
+Perfect Blue, 8.45, 341334
+Shingeki no Kyojin, 8.45, 2211252
+Tenki no Ko, 8.45, 378517
+Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai., 8.45, 1054948
+Koukaku Kidoutai: Stand Alone Complex, 8.45, 316152
+Nana, 8.45, 370499
+3-gatsu no Lion, 8.44, 411591
+Chihayafuru 2, 8.44, 173712
+Cross Game, 8.44, 96604
+Gintama: Yorinuki Gintama-san on Theater 2D, 8.44, 29748
+Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen, 8.44, 762199
+Kara no Kyoukai 7: Satsujin Kousatsu (Go), 8.44, 158198
+Mahou Shoujo Madoka★Magica Movie 3: Hangyaku no Monogatari, 8.44, 273553
+Usagi Drop, 8.44, 373324
+Yuu☆Yuu☆Hakusho, 8.44, 438730
+Haikyuu!!: To the Top, 8.43, 356952
+Kono Oto Tomare! 2nd Season, 8.43, 68613
+Baccano!, 8.42, 671423
+Barakamon, 8.42, 475767
+Gintama°: Aizome Kaori-hen, 8.42, 55328
+Houseki no Kuni (TV), 8.42, 281438
+Hunter x Hunter, 8.42, 377870
+Kingdom 3rd Season, 8.42, 32594
+Kiseijuu: Sei no Kakuritsu, 8.42, 1129094
+Mo Dao Zu Shi 2nd Season, 8.42, 45702
+Mononoke, 8.42, 195592
+Bakuman. 2nd Season, 8.41, 276054
+Grand Blue, 8.41, 362499
+Hellsing Ultimate, 8.41, 632302
+Kaze no Tani no Nausicaä, 8.41, 262255
+Kizumonogatari I: Tekketsu-hen, 8.41, 342635
+Natsume Yuujinchou Movie: Utsusemi ni Musubu, 8.41, 40581
+Natsume Yuujinchou Roku Specials, 8.41, 29939
+Violet Evergarden Gaiden: Eien to Jidou Shuki Ningyou, 8.41, 144551
+Zoku Owarimonogatari, 8.41, 132460
+Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai, 8.40, 770469
