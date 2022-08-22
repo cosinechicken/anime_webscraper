@@ -1,0 +1,50 @@
+Monster, 8.69, 363238
+Death Note, 8.67, 1485979
+Bakuman. 3rd Season, 8.66, 187336
+Hajime no Ippo: Rising, 8.66, 106474
+Ansatsu Kyoushitsu 2nd Season, 8.65, 399048
+Fate/Zero 2nd Season, 8.65, 513261
+Haikyuu!!, 8.65, 500849
+Natsume Yuujinchou San, 8.65, 142279
+Yojouhan Shinwa Taikei, 8.65, 189875
+Natsume Yuujinchou Go, 8.64, 83407
+Ping Pong The Animation, 8.64, 152461
+Shingeki no Kyojin Season 3, 8.64, 249464
+Ashita no Joe 2, 8.63, 13510
+JoJo no Kimyou na Bouken: Diamond wa Kudakenai, 8.63, 193264
+Mushishi Special: Hihamukage, 8.63, 69736
+Shouwa Genroku Rakugo Shinjuu, 8.63, 146567
+Kara no Kyoukai 5: Mujun Rasen, 8.62, 142523
+Pingu in the City, 8.62, 22905
+Sora yori mo Tooi Basho, 8.62, 131165
+Tengen Toppa Gurren Lagann Movie 2: Lagann-hen, 8.62, 117177
+Zoku Natsume Yuujinchou, 8.62, 150109
+Aria The Origination, 8.59, 72585
+Rainbow: Nisha Rokubou no Shichinin, 8.59, 202328
+Violet Evergarden, 8.59, 382047
+Gintama.: Porori-hen, 8.58, 57989
+Steins;Gate Movie: Fuka Ryouiki no Déjà vu, 8.58, 292632
+Gintama Movie 1: Shinyaku Benizakura-hen, 8.56, 74442
+JoJo no Kimyou na Bouken: Stardust Crusaders 2nd Season, 8.56, 201928
+Saiki Kusuo no Ψ-nan (TV), 8.56, 164196
+Boku dake ga Inai Machi, 8.55, 724565
+Ghost in the Shell: Stand Alone Complex 2nd GIG, 8.55, 152146
+Hotaru no Haka, 8.55, 253429
+Slam Dunk, 8.55, 118315
+Uchuu Kyoudai, 8.55, 101453
+Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai., 8.54, 679919
+Hotarubi no Mori e, 8.54, 323239
+One Piece, 8.54, 738207
+Shokugeki no Souma, 8.54, 635710
+Kamisama Hajimemashita: Kako-hen, 8.53, 64859
+Kuroko no Basket 3rd Season, 8.53, 296054
+Kuroshitsuji Movie: Book of the Atlantic, 8.53, 65142
+Major S5, 8.53, 39300
+Hellsing Ultimate, 8.52, 436052
+Mushishi Zoku Shou: Odoro no Michi, 8.52, 50853
+Nichijou, 8.52, 390375
+Usagi Drop, 8.52, 275282
+Kara no Kyoukai 7: Satsujin Kousatsu (Kou), 8.51, 123467
+Kiseijuu: Sei no Kakuritsu, 8.51, 698345
+Cross Game, 8.50, 72422
+Kingdom 2nd Season, 8.50, 47279
