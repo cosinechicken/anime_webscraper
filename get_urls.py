@@ -15,13 +15,19 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
+# Helper function to add the limit to a string if necessary
+def add_limit(string):
+    if limit > 0:
+        return string + "-" + str(limit)
+    return string
+
 start_ns = time.time_ns()
 # Prevent browser from being opened while scraping
 op = webdriver.ChromeOptions()
 op.add_argument('headless')
 
 # Scrape the archive for each year
-ending = 50
+limit = 50
 urls = []
 for i in range(15, 23):
     # 4-digit representation of the year
@@ -29,8 +35,8 @@ for i in range(15, 23):
     print(bcolors.HEADER + "Scraping: " + str(year) + bcolors.ENDC)
     url = 'https://web.archive.org/web/' + str(year) + '0101000000*/https://myanimelist.net/topanime.php'
     
-    if ending > 0:
-        url += ('?limit=' + str(ending))
+    if limit > 0:
+        url += ('?limit=' + str(limit))
 
     # Scrape the url
     driver = webdriver.Chrome(options=op)
@@ -52,9 +58,7 @@ for i in range(15, 23):
                 urls.append("https://web.archive.org" + new_url)
     print("")
 
-file_name = "data/urls/"
-if ending > 0:
-    file_name += ("-" + str(ending))
+file_name = add_limit("data/urls")
 file_name += ".txt"
 
 with open(file_name, 'w') as file:

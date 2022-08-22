@@ -38,6 +38,12 @@ def remove_commas(num):
         new_str += chunk
     return new_str
 
+# Helper function to add the limit to a string if necessary
+def add_limit(string):
+    if limit > 0:
+        return string + "-" + str(limit)
+    return string
+
 start_ns = time.time_ns()
 # Prevent browser from being opened while scraping
 op = webdriver.ChromeOptions()
@@ -46,9 +52,7 @@ op.add_argument('headless')
 urls = []
 failures = []
 limit = 50
-url_file = "data/urls"
-if limit > 0:
-    url_file += ("-" + str(limit))
+url_file = add_limit("data/urls")
 url_file += ".txt"
 
 with open(url_file, 'r') as url_file:
@@ -127,9 +131,7 @@ for next_url in urls:
             elif len(data) != 50:
                 raise Exception("File did not have 50 datapoints")
             # If everything went well we write the data into the text files
-            data_file = "data/" + str(limit) + "/" + date_str
-            if limit > 0:
-                data_file += ("-" + str(limit))
+            data_file = add_limit("data/" + str(limit) + "/" + date_str)
             data_file += ".txt"
             with open(data_file, 'w', encoding='utf8') as txt_file:
                 for data_point in data:
@@ -140,9 +142,7 @@ for next_url in urls:
             print(next_url + " doesn't have the correct format.")
             print(bcolors.WARNING + "Scraping: " + str(e) + bcolors.ENDC)
     if not is_finished:
-        failure_file = "data/failures"
-        if limit > 0:
-            failure_file += ("-" + str(limit))
+        failure_file = add_limit("data/failures")
         failure_file += ".txt"
         with open(failure_file, 'a', encoding='utf8') as txt_file:
             txt_file.write(str(date_str) + "\n")
