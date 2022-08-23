@@ -1,6 +1,9 @@
 import pandas as pd
 import numpy as np
 import os
+import seaborn as sns
+import matplotlib.pyplot as plt
+
 
 days_in_month = np.array([31,28,31,30,31,30,31,31,30,31,30,31])
 
@@ -78,11 +81,26 @@ def populate():
                     # print(str(days_str) + " " + anime_name)
                     score[anime_name][days_str] = float(anime_score)
                     members[anime_name][days_str] = int(anime_members)
-                    
+    # Record data into out.txt
+    with open("out.txt", 'w') as f:
+        for i in members:
+            for j in members[i]:
+                f.write(i + ":::" + str(j) + ":::" + str(score[i][j]) + "\n")
 
 populate()
 
-with open("out.txt", 'w') as f:
-    for i in members:
-        for j in members[i]:
-            f.write(i + ":::" + str(j) + ":::" + str(score[i][j]) + "\n")
+# Plot score of YLIA over time
+anime_name = "Shigatsu wa Kimi no Uso"
+days_arr = []
+date_arr = []
+for i in score[anime_name]:
+    days_arr.append(i)
+    date_arr.append(days_to_date(i))
+days_arr.sort()
+scores_arr = []
+for i in days_arr:
+    scores_arr.append(score[anime_name][i])
+ax = sns.lineplot(x=days_arr, y=scores_arr, markers=True)
+ax.set(xlabel ='Days', ylabel ='Score')
+plt.title(anime_name)
+plt.show()
