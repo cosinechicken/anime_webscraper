@@ -37,10 +37,10 @@ op = webdriver.ChromeOptions()
 op.add_argument('headless')
 
 # Iterate through possible value of limits
-for limit in range(100, 150, 50):
+for limit in range(150, 200, 50):
     # Scrape the archive for each year
     urls = []
-    for i in range(22, 23):
+    for i in range(15, 23):
         # 4-digit representation of the year
         year = i + 2000
         print(bcolors.HEADER + "Scraping: " + str(year) + bcolors.ENDC)

@@ -1,0 +1,50 @@
+Hajime no Ippo: Champion Road, 8.40, 42961
+Kaguya-hime no Monogatari, 8.40, 35599
+Nodame Cantabile Finale, 8.40, 61560
+One Piece Film: Z, 8.40, 65534
+Detective Conan Movie 06: The Phantom of Baker Street, 8.39, 25456
+Detective Conan Movie 13: The Raven Chaser, 8.39, 19323
+Hachimitsu to Clover II, 8.39, 57574
+Katekyo Hitman Reborn!, 8.39, 233245
+Kokoro ga Sakebitagatterunda., 8.39, 36919
+Kuroshitsuji: Book of Circus, 8.39, 102928
+Planetes, 8.39, 92201
+Tenkuu no Shiro Laputa, 8.39, 135875
+Gin no Saji 2nd Season, 8.38, 60218
+InuYasha: Kanketsu-hen, 8.38, 88176
+Little Busters!: Refrain, 8.38, 63315
+Major: Message, 8.38, 10850
+Omoide no Marnie, 8.38, 40201
+Ookami to Koushinryou, 8.38, 298474
+Berserk, 8.37, 190656
+Fate/stay night: Unlimited Blade Works - Prologue, 8.37, 91876
+Gintama: Shiroyasha Koutan, 8.37, 24174
+Kyoukai no Kanata Movie: I'll Be Here - Mirai-hen, 8.37, 44850
+Major S4, 8.37, 25060
+SKET Dance, 8.37, 90515
+Bakuman., 8.36, 219051
+Death Parade, 8.36, 310830
+Kuroko no Basket: Saikou no Present Desu, 8.36, 16772
+Danshi Koukousei no Nichijou, 8.35, 223421
+Ghost in the Shell, 8.35, 191873
+Kotonoha no Niwa, 8.35, 150199
+Mahou Shoujo Lyrical Nanoha: The Movie 2nd A's, 8.35, 12278
+Mobile Suit Gundam: The Origin, 8.35, 11817
+Nagi no Asukara, 8.35, 194036
+Sennen Joyuu, 8.35, 51700
+Working!!!: Lord of the Takanashi, 8.35, 22409
+Chihayafuru, 8.34, 140547
+Clannad, 8.34, 508965
+Fullmetal Alchemist, 8.34, 543672
+Gyakkyou Burai Kaiji: Ultimate Survivor, 8.34, 85427
+Hunter x Hunter: Greed Island, 8.34, 52020
+K-On! Movie, 8.34, 103845
+Redline, 8.34, 95334
+Sekaiichi Hatsukoi 2, 8.34, 61872
+Tokyo Godfathers, 8.34, 78853
+Boku no Hero Academia, 8.33, 160718
+Kami nomi zo Shiru Sekai: Megami-hen, 8.33, 126592
+Mimi wo Sumaseba, 8.33, 84278
+xxxHOLiC Kei, 8.33, 70050
+Aria The Natural, 8.32, 36673
+Dragon Ball Z, 8.32, 332749

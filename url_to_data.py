@@ -51,7 +51,7 @@ op.add_argument('headless')
 
 urls = []
 failures = []
-limit = 100
+limit = 150
 url_file = add_limit("data/urls")
 url_file += ".txt"
 
