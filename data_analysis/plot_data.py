@@ -45,15 +45,6 @@ def days_to_date(days):
         days_in_month[1] -= 1
     return "20" + to_two_digit_string(year) + to_two_digit_string(month) + to_two_digit_string(remainder)
 
-### TEST ### 
-is_good = True
-for i in range(1,8272):
-    print(days_to_date(i))
-    if date_to_days(days_to_date(i)) != i:
-        is_good = False
-print(is_good)
-### END TEST ###
-
 members = {}
 score = {}
 
@@ -65,7 +56,7 @@ def populate():
         # Go through all files in directory
         for file in os.listdir(directory):
             filename = os.fsdecode(file)
-            date_str = filename[:-4].split("-")[0]
+            days_str = date_to_days(filename[:-4].split("-")[0])
             # Open each file and read its contents
             with open("data/" + str(i) + "/" + filename, 'r') as f:
                 while True:                             # Read more lines until no lines left
@@ -74,18 +65,24 @@ def populate():
                         break
                     next_line = next_line[:-1]          # Remove newline at the end
                     temp = next_line.split(", ")        # Separate data
-                    anime_name = temp[0]
-                    anime_score = temp[1]
-                    anime_members = temp[2]
+                    anime_name_list = temp[0:-2]        # In case anime name has a comma
+                    anime_name = ""
+                    for piece in anime_name_list:
+                        anime_name += (piece + ", ")
+                    anime_name = anime_name[:-2]
+                    anime_score = temp[-2]
+                    anime_members = temp[-1]
                     if not (anime_name in members):     # Add dataframe into dictionaries
                         members[anime_name] = {}
                         score[anime_name] = {}
-                    members[anime_name][date_str] = anime_members
-                    score[anime_name][date_str] = anime_score
+                    # print(str(days_str) + " " + anime_name)
+                    score[anime_name][days_str] = float(anime_score)
+                    members[anime_name][days_str] = int(anime_members)
+                    
 
 populate()
 
 with open("out.txt", 'w') as f:
     for i in members:
         for j in members[i]:
-            f.write(i + ": " + j + ", " + score[i][j] + "\n")
+            f.write(i + ":::" + str(j) + ":::" + str(score[i][j]) + "\n")
