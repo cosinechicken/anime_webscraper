@@ -61,7 +61,7 @@ def populate():
             filename = os.fsdecode(file)
             days_str = date_to_days(filename[:-4].split("-")[0])
             # Open each file and read its contents
-            with open("data/" + str(i) + "/" + filename, 'r') as f:
+            with open("data/" + str(i) + "/" + filename, 'r', encoding='utf8') as f:
                 while True:                             # Read more lines until no lines left
                     next_line = f.readline()
                     if len(next_line) == 0:
@@ -82,25 +82,58 @@ def populate():
                     score[anime_name][days_str] = float(anime_score)
                     members[anime_name][days_str] = int(anime_members)
     # Record data into out.txt
-    with open("out.txt", 'w') as f:
+    with open("out.txt", 'w', encoding='utf8') as f:
         for i in members:
             for j in members[i]:
                 f.write(i + ":::" + str(j) + ":::" + str(score[i][j]) + "\n")
 
 populate()
 
+
 # Plot score of YLIA over time
-anime_name = "Shigatsu wa Kimi no Uso"
+anime_names = []
+with open("data/0/20220820.txt", 'r', encoding='utf8') as f:
+    while True:                             # Read more lines until no lines left
+        next_line = f.readline()
+        if len(next_line) == 0:
+            break
+        next_line = next_line[:-1]          # Remove newline at the end
+        temp = next_line.split(", ")        # Separate data
+        anime_name_list = temp[0:-2]        # In case anime name has a comma
+        anime_name = ""
+        for piece in anime_name_list:
+            anime_name += (piece + ", ")
+        anime_name = anime_name[:-2]
+        anime_names.append(anime_name)
 days_arr = []
-date_arr = []
-for i in score[anime_name]:
+temp = []
+for i in range(len(anime_names)):
+    temp.append([])
+
+for i in range(5711, 8271):
     days_arr.append(i)
-    date_arr.append(days_to_date(i))
-days_arr.sort()
-scores_arr = []
-for i in days_arr:
-    scores_arr.append(score[anime_name][i])
-ax = sns.lineplot(x=days_arr, y=scores_arr, markers=True)
+df_dict = {'Days': days_arr}
+
+# Add joint data into temp
+for i in range(5711, 8271):
+    for j in range(len(anime_names)):
+        try:
+            temp[j].append(score[anime_names[j]][i])
+        except:
+            temp[j].append(np.NaN)
+for j in range(len(anime_names)):
+    df_dict[j] = temp[j]
+
+data_preproc = pd.DataFrame(df_dict)
+print(data_preproc.head())
+ax = sns.lineplot(x='Days', y='value', hue='variable', 
+             data=pd.melt(data_preproc, ['Days']))
 ax.set(xlabel ='Days', ylabel ='Score')
-plt.title(anime_name)
+
+# for legend text
+plt.setp(ax.get_legend().get_texts(), fontsize='5') 
+ 
+# for legend title
+plt.setp(ax.get_legend().get_title(), fontsize='5') 
+plt.title("ANIME SCORES")
 plt.show()
