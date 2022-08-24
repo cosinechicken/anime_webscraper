@@ -1,278 +1,278 @@
-1: Major S1, 82
-2: Katanagatari, 163
-3: Toradora!, 98
-4: One Piece Film: Strong World, 57
-5: Katekyo Hitman Reborn!, 32
-6: Berserk, 33
-7: Kemono no Souja Erin, 143
-8: Hunter x Hunter: Original Video Animation, 81
-9: Boku no Hero Academia 3rd Season, 304
-10: Kuroshitsuji Movie: Book of the Atlantic, 93
-11: Fate/stay night: Unlimited Blade Works, 70
-12: No Game No Life: Zero, 244
-13: Nodame Cantabile, 112
-14: Evangelion: 2.0 You Can (Not) Advance, 152
-15: Major S2, 61
-16: Mobile Suit Gundam: The Origin, 69
-17: Shinsekai yori, 212
-18: Re:Zero kara Hajimeru Isekai Seikatsu, 100
-19: Detective Conan: Episode One - The Great Detective Turned Small, 77
-20: Bakemono no Ko, 190
-21: Hotarubi no Mori e, 259
-22: Angel Beats!, 46
-23: Dr. Stone, 35
-24: Fate/stay night: Unlimited Blade Works 2nd Season, 106
-25: Kaguya-hime no Monogatari, 35
-26: Beck, 52
-27: Detective Conan Movie 06: The Phantom of Baker Street, 88
-28: Tenki no Ko, 115
-29: Boku dake ga Inai Machi, 260
-30: Pingu in the City (2018), 44
-31: Saiki Kusuo no Ψ-nan (TV), 69
-32: Kino no Tabi: The Beautiful World, 134
-33: Shokugeki no Souma, 243
-34: Stranger: Mukou Hadan, 99
-35: Romeo no Aoi Sora, 157
-36: Kuroko no Basket 3rd Season, 254
-37: Sakamichi no Apollon, 152
-38: Holo no Graffiti, 104
-39: Ouran Koukou Host Club, 38
-40: Shokugeki no Souma: San no Sara, 81
-41: Mahoutsukai no Yome, 32
-42: Shokugeki no Souma: Ni no Sara, 138
-43: Magi: The Kingdom of Magic, 137
-44: Fate/stay night: Unlimited Blade Works - Prologue, 31
-45: Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen, 321
-46: Diamond no Ace: Second Season, 95
-47: Bakemonogatari, 54
-48: Uchuu Senkan Yamato 2199, 177
-49: One Piece Film: Z, 38
-50: Kara no Kyoukai 7: Satsujin Kousatsu (Kou), 203
-51: Durarara!!, 38
-52: JoJo no Kimyou na Bouken (TV), 115
-53: No Game No Life, 109
-54: Quanzhi Gaoshou Specials, 54
-55: Doukyuusei (Movie), 92
-56: Boku no Hero Academia, 53
-57: Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai, 112
-58: Shirobako, 140
-59: Fate/Zero, 173
-60: Fate/stay night Movie: Heaven's Feel - I. Presage Flower, 47
-61: Aria The Origination, 232
-62: NHK ni Youkoso!, 46
-63: Ookami to Koushinryou II, 144
-64: Pingu in the City, 114
-65: Hachimitsu to Clover II, 38
-66: Higurashi no Naku Koro ni Kai, 63
-67: Kuroshitsuji: Book of Murder, 62
-68: Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai., 297
-69: Mobile Suit Gundam Unicorn, 45
-70: Girls & Panzer Movie, 89
-71: Toki wo Kakeru Shoujo, 83
-72: Natsume Yuujinchou, 97
-73: Hunter x Hunter: Greed Island Final, 65
-74: Major S3, 50
-75: Steins;Gate: Oukoubakko no Poriomania, 131
-76: Kuroko no Basket, 96
-77: Versailles no Bara, 50
-78: Tonari no Totoro, 197
-79: Gotcha!, 67
-80: Boku no Hero Academia 2nd Season, 463
-81: Major: World Series, 180
-82: Kuroko no Basket 2nd Season, 204
-83: Nanatsu no Taizai, 61
-84: JoJo no Kimyou na Bouken Part 6: Stone Ocean, 57
-85: Houseki no Kuni, 66
-86: Rurouni Kenshin: Meiji Kenkaku Romantan, 101
-87: Noragami Aragoto, 107
-88: Tsubasa: Tokyo Revelations, 87
-89: Sakurasou no Pet na Kanojo, 39
-1: One Outs, 61
-2: Violet Evergarden Movie, 473
-3: Monogatari Series: Second Season, 1279
-4: Great Teacher Onizuka, 1209
-5: Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare, 1279
-6: Kimi no Suizou wo Tabetai, 301
-7: Gintama: The Final, 481
-8: Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen, 138
-9: Natsume Yuujinchou Roku Specials, 139
-10: Mo Dao Zu Shi: Wanjie Pian, 220
-11: Fate/stay night Movie: Heaven's Feel - II. Lost Butterfly, 401
-12: Ansatsu Kyoushitsu 2nd Season, 409
-13: Kenpuu Denki Berserk, 290
-14: Josee to Tora to Sakana-tachi, 104
-15: Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season, 97
-16: Suzumiya Haruhi no Shoushitsu, 887
-17: Made in Abyss Movie 3: Fukaki Tamashii no Reimei, 452
-18: Death Note, 506
-19: Shingeki no Kyojin: The Final Season Part 2, 202
-20: Perfect Blue, 162
-21: Saenai Heroine no Sodatekata Fine, 132
-22: Ginga Eiyuu Densetsu, 1279
-23: Uchuu Kyoudai, 392
-24: Haikyuu!! To the Top, 91
-25: Kizumonogatari III: Reiketsu-hen, 1175
-26: Golden Kamuy 3rd Season, 122
-27: Haikyuu!!, 446
-28: Gintama', 1279
-29: Kaguya-sama wa Kokurasetai: Ultra Romantic, 130
-30: Koukaku Kidoutai: Stand Alone Complex 2nd GIG, 407
-31: Samurai Champloo, 379
-32: Kimi no Na wa., 1228
-33: Kizumonogatari II: Nekketsu-hen, 597
-34: Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2, 162
-35: Mahou Shoujo Madoka★Magica Movie 2: Eien no Monogatari, 181
-36: One Punch Man, 843
-37: Kara no Kyoukai Movie 7: Satsujin Kousatsu (Go), 134
-38: Shouwa Genroku Rakugo Shinjuu, 383
-39: Mushishi Zoku Shou, 1279
-40: Gintama.: Porori-hen, 318
-41: Grand Blue, 195
-42: Hunter x Hunter, 288
-43: Kimetsu no Yaiba, 351
-44: Fruits Basket 2nd Season, 163
-45: Mushishi: Hihamukage, 443
-46: Vinland Saga, 665
-47: Hunter x Hunter (2011), 1279
-48: Code Geass: Hangyaku no Lelouch, 1279
-49: Odd Taxi, 351
-50: Haikyuu!! To the Top Part 2, 161
-51: One Piece, 404
-52: Owarimonogatari, 371
-53: Chihayafuru 2, 308
-54: JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai, 389
-55: Mahou Shoujo Madoka★Magica Movie 3: Hangyaku no Monogatari, 374
-56: Sora yori mo Tooi Basho, 293
-57: Violet Evergarden, 343
-58: Major S5, 346
-59: Kimetsu no Yaiba: Yuukaku-hen, 213
-60: Spy x Family, 129
-61: Jujutsu Kaisen (TV), 340
-62: Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai, 406
-63: Tian Guan Ci Fu Special, 120
-64: Natsume Yuujinchou: Itsuka Yuki no Hi ni, 70
-65: Violet Evergarden Gaiden: Eien to Jidou Shuki Ningyou, 59
-66: Kingdom 3rd Season, 321
-67: Cross Game, 304
-68: Natsume Yuujinchou Movie: Utsusemi ni Musubu, 142
-69: Kingdom 2nd Season, 246
-70: Natsume Yuujinchou Go, 385
-71: Karakai Jouzu no Takagi-san 3, 40
-72: Usagi Drop, 302
-73: Mob Psycho 100, 339
-74: Shingeki no Kyojin Season 3, 292
-75: Gintama.: Shirogane no Tamashii-hen, 1105
-76: Chihayafuru 3, 182
-77: Tengen Toppa Gurren Lagann, 944
-78: Gintama°: Aizome Kaori-hen, 265
-79: Nana, 377
-80: Mob Psycho 100 II, 901
-81: Mononoke, 373
-82: Tengen Toppa Gurren Lagann Movie 2: Lagann-hen, 423
-83: Sayonara no Asa ni Yakusoku no Hana wo Kazarou, 224
-84: Major S6, 204
-85: Mushoku Tensei: Isekai Ittara Honki Dasu Part 2, 247
-86: Vivy: Fluorite Eye's Song, 107
-87: Haikyuu!! Second Season, 1061
-88: 3-gatsu no Lion, 195
-89: Kimetsu no Yaiba Movie: Mugen Ressha-hen, 401
-90: Kobayashi-san Chi no Maid Dragon S, 47
-91: Fumetsu no Anata e, 99
-92: Zoku Owarimonogatari, 254
-93: Mushishi Zoku Shou 2nd Season, 1279
-94: Yakusoku no Neverland, 441
-95: Koukaku Kidoutai: Stand Alone Complex, 367
-96: Gintama': Enchousen, 1279
-97: 3-gatsu no Lion 2nd Season, 1120
-98: Gintama: Yorinuki Gintama-san on Theater 2D, 352
-99: Shigatsu wa Kimi no Uso, 1092
-100: Mononoke Hime, 1098
-101: JoJo no Kimyou na Bouken Part 5: Ougon no Kaze, 601
-102: Kaze ga Tsuyoku Fuiteiru, 169
-103: Sen to Chihiro no Kamikakushi, 1279
-104: Shingeki no Kyojin Season 2, 261
-105: Shingeki no Kyojin: The Final Season, 509
-106: Gintama°, 1279
-107: Barakamon, 285
-108: Yuru Camp△ Season 2, 136
-109: Bakuman. 3rd Season, 498
-110: Shingeki no Kyojin: Kuinaki Sentaku, 143
-111: Kono Oto Tomare! Part 2, 165
-112: Steins;Gate Movie: Fuka Ryouiki no Déjà vu, 388
-113: Fate/Zero 2nd Season, 473
-114: Ashita no Joe 2, 709
-115: Yojouhan Shinwa Taikei, 422
-116: Made in Abyss, 979
-117: Shingeki no Kyojin Season 3 Part 2, 803
-118: Fruits Basket: The Final, 415
-119: Ousama Ranking, 162
-120: Koe no Katachi, 1221
-121: Shoujo☆Kageki Revue Starlight Movie, 37
-122: Gintama: The Semi-Final, 125
-123: Gintama, 1279
-124: Banana Fish, 129
-125: Yuu☆Yuu☆Hakusho, 373
-126: Fullmetal Alchemist: Brotherhood, 1279
-127: Evangelion: 3.0+1.0 Thrice Upon a Time, 139
-128: Bakuman. 2nd Season, 270
-129: Mahou Shoujo Madoka★Magica, 235
-130: Houseki no Kuni (TV), 116
-131: Rainbow: Nisha Rokubou no Shichinin, 409
-132: Hotaru no Haka, 394
-133: Kaguya-sama wa Kokurasetai? Tensai-tachi no Renai Zunousen, 40
-134: Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen, 1176
-135: Wu Liuqi Zhi Xuanwu Guo Pian, 69
-136: Steins;Gate 0, 385
-137: Tian Guan Ci Fu, 33
-138: Fate/stay night Movie: Heaven's Feel - III. Spring Song, 550
-139: Kaze no Tani no Nausicaä, 267
-140: Owarimonogatari 2nd Season, 1143
-141: Code Geass: Hangyaku no Lelouch R2, 1276
-142: Monster, 1246
-143: Natsume Yuujinchou Roku, 770
-144: Neon Genesis Evangelion: The End of Evangelion, 401
-145: Gintama., 1192
-146: Mo Dao Zu Shi, 280
-147: Hajime no Ippo: Rising, 464
-148: Saiki Kusuo no Ψ-nan 2, 328
-149: Kara no Kyoukai Movie 5: Mujun Rasen, 452
-150: Mo Dao Zu Shi: Xian Yun Pian, 186
-151: JoJo no Kimyou na Bouken Part 3: Stardust Crusaders 2nd Season, 386
-152: Hajime no Ippo: New Challenger, 979
-153: Steins;Gate, 1279
-154: Hajime no Ippo, 1279
-155: Zoku Natsume Yuujinchou, 412
-156: Natsume Yuujinchou Shi, 994
-157: Ookami Kodomo no Ame to Yuki, 906
-158: Howl no Ugoku Shiro, 949
-159: Jujutsu Kaisen 0 Movie, 42
-160: Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen, 1279
-161: Saiki Kusuo no Ψ-nan, 252
-162: Shingeki no Kyojin, 377
-163: Slam Dunk, 409
-164: Ping Pong the Animation, 449
-165: Non Non Biyori Nonstop, 34
-166: Clannad: After Story, 1279
-167: Natsume Yuujinchou San, 450
-168: Kingdom 4th Season, 117
-169: Made in Abyss: Retsujitsu no Ougonkyou, 46
-170: Mushishi Zoku Shou: Odoro no Michi, 379
-171: Cowboy Bebop, 1279
-172: Psycho-Pass, 244
-173: Mushishi Zoku Shou: Suzu no Shizuku, 739
-174: Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan, 86
-175: Haikyuu!!: Karasuno Koukou vs. Shiratorizawa Gakuen Koukou, 1217
-176: Kono Subarashii Sekai ni Shukufuku wo! Movie: Kurenai Densetsu, 194
-177: Kiseijuu: Sei no Kakuritsu, 271
-178: Kizumonogatari I: Tekketsu-hen, 240
-179: Cowboy Bebop: Tengoku no Tobira, 100
-180: Kamisama Hajimemashita: Kako-hen, 237
-181: 86 Part 2, 186
-182: Baccano!, 301
-183: Gintama Movie 1: Shinyaku Benizakura-hen, 403
-184: Mushishi, 1088
-185: Aria the Origination, 184
-186: Nichijou, 381
-187: Shiguang Dailiren, 352
-188: Gintama.: Shirogane no Tamashii-hen - Kouhan-sen, 1029
-189: Hellsing Ultimate, 277
+Aria The Origination
+Mobile Suit Gundam: The Origin
+Kuroko no Basket 3rd Season
+Angel Beats!
+Stranger: Mukou Hadan
+Houseki no Kuni
+Kuroko no Basket
+One Piece Film: Strong World
+Saiki Kusuo no Ψ-nan (TV)
+Bakemono no Ko
+Holo no Graffiti
+Shinsekai yori
+No Game No Life: Zero
+Kaguya-hime no Monogatari
+Boku no Hero Academia 2nd Season
+Steins;Gate: Oukoubakko no Poriomania
+Hotarubi no Mori e
+Boku no Hero Academia 3rd Season
+Durarara!!
+Doukyuusei (Movie)
+Rurouni Kenshin: Meiji Kenkaku Romantan
+Detective Conan Movie 06: The Phantom of Baker Street
+Shokugeki no Souma: Ni no Sara
+Sakurasou no Pet na Kanojo
+Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai
+Major S3
+Nanatsu no Taizai
+Pingu in the City (2018)
+Fate/Zero
+Fate/stay night: Unlimited Blade Works - Prologue
+Natsume Yuujinchou
+Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen
+Magi: The Kingdom of Magic
+Mobile Suit Gundam Unicorn
+Shokugeki no Souma: San no Sara
+Ookami to Koushinryou II
+JoJo no Kimyou na Bouken Part 6: Stone Ocean
+Shirobako
+Toradora!
+Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.
+Dr. Stone
+Toki wo Kakeru Shoujo
+Re:Zero kara Hajimeru Isekai Seikatsu
+Boku no Hero Academia
+Bakemonogatari
+Kuroshitsuji: Book of Murder
+JoJo no Kimyou na Bouken (TV)
+Fate/stay night Movie: Heaven's Feel - I. Presage Flower
+Shokugeki no Souma
+Fate/stay night: Unlimited Blade Works
+Hachimitsu to Clover II
+Fate/stay night: Unlimited Blade Works 2nd Season
+Hunter x Hunter: Original Video Animation
+Katanagatari
+Quanzhi Gaoshou Specials
+Pingu in the City
+Evangelion: 2.0 You Can (Not) Advance
+Boku dake ga Inai Machi
+Katekyo Hitman Reborn!
+Romeo no Aoi Sora
+Diamond no Ace: Second Season
+Kara no Kyoukai 7: Satsujin Kousatsu (Kou)
+Hunter x Hunter: Greed Island Final
+Noragami Aragoto
+NHK ni Youkoso!
+Kemono no Souja Erin
+Major S2
+Detective Conan: Episode One - The Great Detective Turned Small
+Kuroshitsuji Movie: Book of the Atlantic
+Major S1
+Kuroko no Basket 2nd Season
+Tenki no Ko
+Versailles no Bara
+Kino no Tabi: The Beautiful World
+No Game No Life
+Higurashi no Naku Koro ni Kai
+Uchuu Senkan Yamato 2199
+Ouran Koukou Host Club
+Tsubasa: Tokyo Revelations
+One Piece Film: Z
+Berserk
+Mahoutsukai no Yome
+Sakamichi no Apollon
+Tonari no Totoro
+Gotcha!
+Nodame Cantabile
+Girls & Panzer Movie
+Beck
+Major: World Series
+Fullmetal Alchemist: Brotherhood
+Shouwa Genroku Rakugo Shinjuu
+Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare
+One Outs
+Shigatsu wa Kimi no Uso
+Mob Psycho 100 II
+Howl no Ugoku Shiro
+Haikyuu!!: Karasuno Koukou vs. Shiratorizawa Gakuen Koukou
+Ashita no Joe 2
+Made in Abyss
+Gintama': Enchousen
+Gintama.: Shirogane no Tamashii-hen
+Nana
+Mushoku Tensei: Isekai Ittara Honki Dasu Part 2
+Shiguang Dailiren
+Hajime no Ippo
+Shingeki no Kyojin: The Final Season Part 2
+Kenpuu Denki Berserk
+Samurai Champloo
+Owarimonogatari
+Bakuman. 3rd Season
+Gintama Movie 1: Shinyaku Benizakura-hen
+Code Geass: Hangyaku no Lelouch R2
+Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan
+Mahou Shoujo Madoka★Magica Movie 2: Eien no Monogatari
+Ousama Ranking
+Shingeki no Kyojin: The Final Season
+Fruits Basket 2nd Season
+Neon Genesis Evangelion: The End of Evangelion
+JoJo no Kimyou na Bouken Part 5: Ougon no Kaze
+Jujutsu Kaisen 0 Movie
+One Punch Man
+Banana Fish
+Saiki Kusuo no Ψ-nan 2
+Gintama°: Aizome Kaori-hen
+Ookami Kodomo no Ame to Yuki
+Shingeki no Kyojin Season 2
+Suzumiya Haruhi no Shoushitsu
+One Piece
+Zoku Natsume Yuujinchou
+Kono Oto Tomare! Part 2
+Bakuman. 2nd Season
+Shingeki no Kyojin
+Hotaru no Haka
+Vinland Saga
+Mushishi: Hihamukage
+Mushishi Zoku Shou
+Kaguya-sama wa Kokurasetai: Ultra Romantic
+Haikyuu!!
+Shingeki no Kyojin Season 3 Part 2
+Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen
+Hajime no Ippo: Rising
+Jujutsu Kaisen (TV)
+Major S5
+Gintama: The Semi-Final
+Natsume Yuujinchou Roku Specials
+Violet Evergarden Gaiden: Eien to Jidou Shuki Ningyou
+Natsume Yuujinchou: Itsuka Yuki no Hi ni
+Fumetsu no Anata e
+Ping Pong the Animation
+Vivy: Fluorite Eye's Song
+Monster
+Natsume Yuujinchou Shi
+Kiseijuu: Sei no Kakuritsu
+Code Geass: Hangyaku no Lelouch
+Zoku Owarimonogatari
+Tengen Toppa Gurren Lagann
+Kingdom 2nd Season
+Made in Abyss: Retsujitsu no Ougonkyou
+Koe no Katachi
+Yakusoku no Neverland
+Kingdom 4th Season
+Kaguya-sama wa Kokurasetai? Tensai-tachi no Renai Zunousen
+Non Non Biyori Nonstop
+Shingeki no Kyojin Season 3
+Koukaku Kidoutai: Stand Alone Complex
+Owarimonogatari 2nd Season
+Shingeki no Kyojin: Kuinaki Sentaku
+Karakai Jouzu no Takagi-san 3
+Kara no Kyoukai Movie 5: Mujun Rasen
+Grand Blue
+Spy x Family
+Gintama'
+Kimi no Suizou wo Tabetai
+Kimetsu no Yaiba
+Steins;Gate 0
+Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen
+Kara no Kyoukai Movie 7: Satsujin Kousatsu (Go)
+Slam Dunk
+Mo Dao Zu Shi
+Haikyuu!! To the Top Part 2
+Monogatari Series: Second Season
+Chihayafuru 3
+Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2
+Perfect Blue
+Sen to Chihiro no Kamikakushi
+Mo Dao Zu Shi: Xian Yun Pian
+Fate/stay night Movie: Heaven's Feel - II. Lost Butterfly
+Clannad: After Story
+Natsume Yuujinchou San
+Kono Subarashii Sekai ni Shukufuku wo! Movie: Kurenai Densetsu
+Cowboy Bebop
+Houseki no Kuni (TV)
+Odd Taxi
+Yojouhan Shinwa Taikei
+Tengen Toppa Gurren Lagann Movie 2: Lagann-hen
+JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai
+Psycho-Pass
+Tian Guan Ci Fu Special
+Gintama.: Porori-hen
+Mob Psycho 100
+Kizumonogatari II: Nekketsu-hen
+Mononoke
+Haikyuu!! To the Top
+Fate/Zero 2nd Season
+Saenai Heroine no Sodatekata Fine
+Aria the Origination
+Steins;Gate
+Great Teacher Onizuka
+Hellsing Ultimate
+Major S6
+Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai
+Gintama
+Yuu☆Yuu☆Hakusho
+Mushishi Zoku Shou 2nd Season
+Tian Guan Ci Fu
+Made in Abyss Movie 3: Fukaki Tamashii no Reimei
+Kaze ga Tsuyoku Fuiteiru
+Cowboy Bebop: Tengoku no Tobira
+Kaze no Tani no Nausicaä
+Sora yori mo Tooi Basho
+Barakamon
+Rainbow: Nisha Rokubou no Shichinin
+Natsume Yuujinchou Go
+Nichijou
+Kimetsu no Yaiba Movie: Mugen Ressha-hen
+Kizumonogatari III: Reiketsu-hen
+Kamisama Hajimemashita: Kako-hen
+Mushishi Zoku Shou: Odoro no Michi
+Mahou Shoujo Madoka★Magica Movie 3: Hangyaku no Monogatari
+86 Part 2
+Yuru Camp△ Season 2
+Natsume Yuujinchou Movie: Utsusemi ni Musubu
+Violet Evergarden
+Kizumonogatari I: Tekketsu-hen
+Uchuu Kyoudai
+Gintama°
+Steins;Gate Movie: Fuka Ryouiki no Déjà vu
+Mushishi Zoku Shou: Suzu no Shizuku
+Hunter x Hunter (2011)
+Haikyuu!! Second Season
+JoJo no Kimyou na Bouken Part 3: Stardust Crusaders 2nd Season
+Gintama: Yorinuki Gintama-san on Theater 2D
+Gintama: The Final
+Kimetsu no Yaiba: Yuukaku-hen
+Koukaku Kidoutai: Stand Alone Complex 2nd GIG
+3-gatsu no Lion
+Sayonara no Asa ni Yakusoku no Hana wo Kazarou
+Shoujo☆Kageki Revue Starlight Movie
+3-gatsu no Lion 2nd Season
+Evangelion: 3.0+1.0 Thrice Upon a Time
+Golden Kamuy 3rd Season
+Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season
+Gintama.
+Kimi no Na wa.
+Ginga Eiyuu Densetsu
+Saiki Kusuo no Ψ-nan
+Kobayashi-san Chi no Maid Dragon S
+Mo Dao Zu Shi: Wanjie Pian
+Ansatsu Kyoushitsu 2nd Season
+Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen
+Josee to Tora to Sakana-tachi
+Mononoke Hime
+Mahou Shoujo Madoka★Magica
+Kingdom 3rd Season
+Gintama.: Shirogane no Tamashii-hen - Kouhan-sen
+Fruits Basket: The Final
+Chihayafuru 2
+Wu Liuqi Zhi Xuanwu Guo Pian
+Violet Evergarden Movie
+Fate/stay night Movie: Heaven's Feel - III. Spring Song
+Cross Game
+Baccano!
+Usagi Drop
+Mushishi
+Death Note
+Hajime no Ippo: New Challenger
+Hunter x Hunter
+Natsume Yuujinchou Roku

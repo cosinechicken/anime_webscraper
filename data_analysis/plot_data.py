@@ -50,8 +50,9 @@ def days_to_date(days):
 
 members = {}
 score = {}
-animes = set()
-final_animes = set()
+animes = set()                          # Set of anime names not in top 200 of MAL today
+final_animes = set()                    # Set of anime names in top 200 of MAL today
+# Some animes may go under two names. For consistency we change the name to the one currently on MAL
 name_swap = {
     "Kono Oto Tomare! 2nd Season": "Kono Oto Tomare! Part 2",
     "Gintama Movie: Shinyaku Benizakura-hen": "Gintama Movie 1: Shinyaku Benizakura-hen",
@@ -124,27 +125,31 @@ def populate():
                     temp = next_line.split(", ")        # Separate data
                     anime_name_list = temp[0:-2]        # In case anime name has a comma
                     anime_name = ""
+                    # Add commas back into the name
                     for piece in anime_name_list:
                         anime_name += (piece + ", ")
                     anime_name = anime_name[:-2]
-                    if anime_name in name_swap:
+                    if anime_name in name_swap:         # Swap name if necessary
                         anime_name = name_swap[anime_name]
                     anime_score = temp[-2]
                     anime_members = temp[-1]
                     animes.add(anime_name)
                     if (days_str > date_to_days("20220731")):
                         final_animes.add(anime_name)
-                    if not (anime_name in members):     # Add dataframe into dictionaries
+                    if not (anime_name in members):     # Add data into dictionaries
                         members[anime_name] = {}
                         score[anime_name] = {}
                     # print(str(days_str) + " " + anime_name)
                     score[anime_name][days_str] = float(anime_score)
                     members[anime_name][days_str] = int(anime_members)
     
+    # Find anime with less than 30 datapoints
     bad_anime = []
     for anime_name in score:
         if len(score[anime_name]) < 30:
             bad_anime.append(anime_name)
+
+    # Remove anime with less than 30 datapoints
     for anime in bad_anime:
         score.pop(anime)
         members.pop(anime)
@@ -162,35 +167,21 @@ def populate():
 
 populate()
 
+# Record list of anime remaining
 with open("out.txt", 'a', encoding='utf8') as f:
-    f.write("\n")
     counter = 0
     for anime in animes:
         if anime in final_animes:
             continue
         counter += 1
-        f.write(str(counter) + ": " + anime + ", " + str(len(score[anime])) + "\n")
+        f.write(anime + "\n")
     counter = 0
     for anime in final_animes:
         counter += 1
-        f.write(str(counter) + ": " + anime + ", " + str(len(score[anime])) + "\n")
+        f.write(anime + "\n")
 
 # Plot score of YLIA over time
-anime_names = []
-with open("data/0/20220820.txt", 'r', encoding='utf8') as f:
-    while True:                             # Read more lines until no lines left
-        next_line = f.readline()
-        if len(next_line) == 0:
-            break
-        next_line = next_line[:-1]          # Remove newline at the end
-        temp = next_line.split(", ")        # Separate data
-        anime_name_list = temp[0:-2]        # In case anime name has a comma
-        anime_name = ""
-        for piece in anime_name_list:
-            anime_name += (piece + ", ")
-        anime_name = anime_name[:-2]
-        anime_names.append(anime_name)
-anime_names = ["Pingu in the City", "Pingu in the City (2018)"]
+anime_names = list(final_animes)
 days_arr = []
 temp = []
 for i in range(len(anime_names)):
@@ -198,7 +189,7 @@ for i in range(len(anime_names)):
 
 for i in range(5711, 8271):
     days_arr.append(i)
-df_dict = {'Days': days_arr}
+df_dict = {'Days': days_arr}        # First column of the dataframe
 
 # Add joint data into temp
 for i in range(5711, 8271):
@@ -207,11 +198,13 @@ for i in range(5711, 8271):
             temp[j].append(score[anime_names[j]][i])
         except:
             temp[j].append(np.NaN)
+# Add data in temp to dataframe
 for j in range(len(anime_names)):
     df_dict[j] = temp[j]
 
 data_preproc = pd.DataFrame(df_dict)
 print(data_preproc.head())
+# Plot the dataframe
 ax = sns.lineplot(x='Days', y='value', hue='variable', 
              data=pd.melt(data_preproc, ['Days']))
 ax.set(xlabel ='Days', ylabel ='Score')
