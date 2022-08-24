@@ -50,6 +50,60 @@ def days_to_date(days):
 
 members = {}
 score = {}
+animes = set()
+final_animes = set()
+name_swap = {
+    "Kono Oto Tomare! 2nd Season": "Kono Oto Tomare! Part 2",
+    "Gintama Movie: Shinyaku Benizakura-hen": "Gintama Movie 1: Shinyaku Benizakura-hen",
+    "Gintama. Porori-hen": "Gintama.: Porori-hen",
+    "JoJo no Kimyou na Bouken: Stardust Crusaders 2nd Season": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders 2nd Season",
+    "Gintama.: Shirogane no Tamashii-hen 2": "Gintama.: Shirogane no Tamashii-hen - Kouhan-sen",
+    "86 2nd Season": "86 Part 2",
+    "Mo Dao Zu Shi 2": "Mo Dao Zu Shi: Xian Yun Pian",
+    "Ansatsu Kyoushitsu (TV) 2nd Season": "Ansatsu Kyoushitsu 2nd Season",
+    "YURI!!! on ICE": "Yuri!!! on Ice",
+    "Yuri!!! on ICE": "Yuri!!! on Ice",
+    "Kara no Kyoukai 7: Satsujin Kousatsu (Go)": "Kara no Kyoukai Movie 7: Satsujin Kousatsu (Go)",
+    "Detective Conan: Episode One - Chiisaku Natta Meitantei": "Detective Conan: Episode One - The Great Detective Turned Small",
+    "JoJo no Kimyou na Bouken: Diamond wa Kudakenai": "JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai",
+    "Fruits Basket (2019)": "Fruits Basket 1st Season",
+    "Haikyuu!!: To the Top": "Haikyuu!! To the Top",
+    "Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare": "Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare",
+    "Kono Subarashii Sekai ni Shukufuku wo!: Kurenai Densetsu": "Kono Subarashii Sekai ni Shukufuku wo! Movie: Kurenai Densetsu",
+    "JoJo no Kimyou na Bouken (2012)": "JoJo no Kimyou na Bouken (TV)",
+    "Mushoku Tensei: Isekai Ittara Honki Dasu 2nd Season": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
+    "Fate/stay night: Unlimited Blade Works (TV) 2nd Season": "Fate/stay night: Unlimited Blade Works 2nd Season",
+    "Bakuman. 2": "Bakuman. 2nd Season",
+    "Girls und Panzer der Film": "Girls & Panzer Movie",
+    "Kizumonogatari Part 1: Tekketsu-hen": "Kizumonogatari I: Tekketsu-hen",
+    "Tengen Toppa Gurren Lagann Movie: Lagann-hen": "Tengen Toppa Gurren Lagann Movie 2: Lagann-hen",
+    "Fate/stay night: Unlimited Blade Works (TV)": "Fate/stay night: Unlimited Blade Works",
+    "Bakuman. 3": "Bakuman. 3rd Season",
+    "Working!!! Lord of the Takanashi": "Working!!!: Lord of the Takanashi",
+    "Haikyuu!!: To the Top 2nd Season": "Haikyuu!! To the Top Part 2",
+    "Mo Dao Zu Shi 2nd Season": "Mo Dao Zu Shi: Xian Yun Pian",
+    "Hunter x Hunter OVA": "Hunter x Hunter: Original Video Animation", 
+    "Fate/stay night: Unlimited Blade Works (TV) - Prologue": "Fate/stay night: Unlimited Blade Works - Prologue",
+    "Hunter x Hunter: Yorkshin City Kanketsu-hen": "Hunter x Hunter: Original Video Animation",
+    "Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuiokuhen": "Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen",
+    "Kara no Kyoukai 5: Mujun Rasen": "Kara no Kyoukai Movie 5: Mujun Rasen",
+    "JoJo no Kimyou na Bouken: Ougon no Kaze": "JoJo no Kimyou na Bouken Part 5: Ougon no Kaze",
+    "One Piece Film Z": "One Piece Film: Z",
+    "Ping Pong The Animation": "Ping Pong the Animation",
+    "Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou": "Haikyuu!!: Karasuno Koukou vs. Shiratorizawa Gakuen Koukou",
+    "Pingu in the City 2nd Season": "Pingu in the City (2018)",
+    "Shiguang Daili Ren": "Shiguang Dailiren",
+    "Ghost in the Shell: Stand Alone Complex": "Koukaku Kidoutai: Stand Alone Complex",
+    "Rose of Versailles": "Versailles no Bara",
+    "Ghost in the Shell: Stand Alone Complex 2nd GIG": "Koukaku Kidoutai: Stand Alone Complex 2nd GIG",
+    "Mushishi Special: Hihamukage": "Mushishi: Hihamukage",
+    "Steins;Gate: Fuka Ryouiki no Déjà vu": "Steins;Gate Movie: Fuka Ryouiki no Déjà vu",
+    "Haikyuu!! To the Top 2nd Season": "Haikyuu!! To the Top Part 2",
+    "Quanzhi Gaoshou: Tebie Pian": "Quanzhi Gaoshou Specials",
+    "Gintama. (2017)": "Gintama.",
+    "Saiki Kusuo no Ψ-nan (TV) 2": "Saiki Kusuo no Ψ-nan 2",
+    "Koukaku Kidoutai S.A.C. 2nd GIG": "Koukaku Kidoutai: Stand Alone Complex 2nd GIG"
+}
 
 # Get list of all files
 def populate():
@@ -73,22 +127,53 @@ def populate():
                     for piece in anime_name_list:
                         anime_name += (piece + ", ")
                     anime_name = anime_name[:-2]
+                    if anime_name in name_swap:
+                        anime_name = name_swap[anime_name]
                     anime_score = temp[-2]
                     anime_members = temp[-1]
+                    animes.add(anime_name)
+                    if (days_str > date_to_days("20220731")):
+                        final_animes.add(anime_name)
                     if not (anime_name in members):     # Add dataframe into dictionaries
                         members[anime_name] = {}
                         score[anime_name] = {}
                     # print(str(days_str) + " " + anime_name)
                     score[anime_name][days_str] = float(anime_score)
                     members[anime_name][days_str] = int(anime_members)
+    
+    bad_anime = []
+    for anime_name in score:
+        if len(score[anime_name]) < 30:
+            bad_anime.append(anime_name)
+    for anime in bad_anime:
+        score.pop(anime)
+        members.pop(anime)
+        if anime in animes:
+            animes.remove(anime)
+        if anime in final_animes:
+            final_animes.remove(anime)
+
     # Record data into out.txt
     with open("out.txt", 'w', encoding='utf8') as f:
         for i in members:
             for j in members[i]:
-                f.write(i + ":::" + str(j) + ":::" + str(score[i][j]) + "\n")
+                # f.write(i + ":::" + str(j) + ":::" + str(score[i][j]) + "\n")
+                k = 1
 
 populate()
 
+with open("out.txt", 'a', encoding='utf8') as f:
+    f.write("\n")
+    counter = 0
+    for anime in animes:
+        if anime in final_animes:
+            continue
+        counter += 1
+        f.write(str(counter) + ": " + anime + ", " + str(len(score[anime])) + "\n")
+    counter = 0
+    for anime in final_animes:
+        counter += 1
+        f.write(str(counter) + ": " + anime + ", " + str(len(score[anime])) + "\n")
 
 # Plot score of YLIA over time
 anime_names = []
@@ -105,6 +190,7 @@ with open("data/0/20220820.txt", 'r', encoding='utf8') as f:
             anime_name += (piece + ", ")
         anime_name = anime_name[:-2]
         anime_names.append(anime_name)
+anime_names = ["Pingu in the City", "Pingu in the City (2018)"]
 days_arr = []
 temp = []
 for i in range(len(anime_names)):
