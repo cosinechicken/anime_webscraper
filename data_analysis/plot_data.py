@@ -192,23 +192,12 @@ for i in range(5711, 8271):
 df_dict = {'Days': days_arr}        # First column of the dataframe
 
 # Add joint data into temp
-max_arr = []
 for j in range(len(anime_names)):
-    prev = 10000
-    max_diff = 0
-    diff = (0,0)
     for i in range(5711, 8271):
         try:
             temp[j].append(score[anime_names[j]][i])
-            max_diff = max(max_diff, i - prev)
-            if max_diff == i - prev:
-                diff = (i, prev)
-            prev = i
         except:
             temp[j].append(np.NaN)
-    max_arr.append(max_diff)
-    print(anime_names[j] + ": " + str(max_arr[j]) + "; " + days_to_date(diff[0]) + ", " + days_to_date(diff[1]))
-print(max(1,2))
 # Add data in temp to dataframe
 for j in range(len(anime_names)):
     if anime_names[j] == "Cowboy Bebop: Tengoku no Tobira":
