@@ -50,7 +50,7 @@ def days_to_date(days):
 
 members = {}
 score = {}
-animes = set()                          # Set of anime names not in top 200 of MAL today
+animes = set()                          # Set of anime names in dataset
 final_animes = set()                    # Set of anime names in top 200 of MAL today
 # Some animes may go under two names. For consistency we change the name to the one currently on MAL
 name_swap = {
@@ -134,7 +134,7 @@ def populate():
                     anime_score = temp[-2]
                     anime_members = temp[-1]
                     animes.add(anime_name)
-                    if (days_str > date_to_days("20220731")):
+                    if (days_str > date_to_days("20150820") and i != 150):
                         final_animes.add(anime_name)
                     if not (anime_name in members):     # Add data into dictionaries
                         members[anime_name] = {}
@@ -193,15 +193,48 @@ df_dict = {'Days': days_arr}        # First column of the dataframe
 
 # Add joint data into temp
 for j in range(len(anime_names)):
+    prev = np.NaN
     for i in range(5711, 8271):
         try:
             temp[j].append(score[anime_names[j]][i])
+            prev = score[anime_names[j]][i]
         except:
-            temp[j].append(np.NaN)
+            temp[j].append(prev)        # If we have no data, use last recorded data
+
+# Plot average
+avgs = []
+for j in range(len(temp[0])):
+    sum = 0
+    num = 0
+    for i in range(len(temp)):
+        if not temp[i][j] is np.NaN:
+            num += 1
+            sum += temp[i][j]
+    avgs.append(sum/num)
+print(np.array(avgs))
+
 # Add data in temp to dataframe
-for j in range(len(anime_names)):
-    if anime_names[j] == "Cowboy Bebop: Tengoku no Tobira":
-        df_dict[j] = temp[j]
+avgs = np.array(avgs)
+# for j in range(len(anime_names)):
+    # df_dict[j] = temp[j]
+df_dict[0] = avgs
+
+# Linear regression to predict avgs
+indices = []
+for i in range(0, 8271 - 5711):
+    indices.append(i)
+indices = np.array(indices)
+total_num_days = 8271 - 5711
+# Plug in formula for slope and intercept 
+m = (np.sum(avgs * indices) - np.sum(avgs) * np.sum(indices) / total_num_days) / (np.sum(indices * indices) - np.sum(indices) * np.sum(indices) / total_num_days)
+b = np.sum(avgs - m * indices) / total_num_days
+b -= 5711 * m
+# Generate guesses based on linear regression
+guess = []
+for i in range(5711, 8271):
+    guess.append(m*i + b)
+df_dict[1] = guess      # Add guess to dataframe
+
 
 data_preproc = pd.DataFrame(df_dict)
 print(data_preproc.head())
